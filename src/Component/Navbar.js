@@ -27,7 +27,7 @@ export const Navbar = () => {
       <ul className={menuOpen ? "open" : ""}>
         <hr className="hr"/>
         <li>
-          <NavLink to="/home">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
           
         </li>
         <hr className="hr"/>

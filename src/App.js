@@ -4,7 +4,7 @@ import { Navbar } from "./Component/Navbar";
 import Bollywood from "./Component/pages/Bollywood"
 import Technology  from "./Component/pages/Technology"
 import Hollywood from "./Component/pages/Hollywood"
-import {Home} from "./Component/pages/Home"
+import Home from "./Component/pages/Home"
 import Fitness from "./Component/pages/Fitness";
 import Food from "./Component/pages/Food";
 
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home/>} />
         <Route path="/bollywood" element={<Bollywood />} />
         <Route path="/hollywood" element={<Hollywood />} />
         <Route path="/technology" element={<Technology />} />

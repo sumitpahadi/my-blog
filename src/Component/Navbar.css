@@ -99,6 +99,34 @@ nav .menu span {
 }
 
 
+
+
+
+/* ------------------------------description ------------------------------ */
+
+
+.unique-image{
+  display: flex;
+  justify-content: center;
+ 
+
+}
+
+.child{
+  
+  width: 400px;
+}
+.child img{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 900px) {
   .hr {
     display: flex;

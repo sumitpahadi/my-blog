@@ -7,6 +7,7 @@ import Hollywood from "./Component/pages/Hollywood"
 import Home from "./Component/pages/Home"
 import Fitness from "./Component/pages/Fitness";
 import Food from "./Component/pages/Food";
+import Detaildesciption from "./Component/Detaildesciption";
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
         <Route path="/technology" element={<Technology />} />
         <Route path="/fitness" element={<Fitness />} />
         <Route path="/food" element={<Food />} />
-        {/* <Route path="/detaildescription/:id"/> */}
+        <Route path="/detaildescription/:id" element={<Detaildesciption />} />
       </Routes>
     </div>
   );

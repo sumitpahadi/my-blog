@@ -1,25 +1,24 @@
-import React from 'react'
-import { useContext } from 'react'
-import Contextapi from './Contextapi/Contextapi'
+import React, { useContext } from "react";
+import { useParams } from "react-router-dom";
+import Contextapi from "./Contextapi/Contextapi";
 
+const Detaildesciption = () => {
+  const { id } = useParams(); // Extract the ID from the URL
+  const bollywooddata = useContext(Contextapi);
 
-function Detaildesciption() {
-    const {id}=useContext(Contextapi)
+ 
+  const imageData = bollywooddata.find((item) => item.id === parseInt(id));
 
+  
   return (
-    <>
-    {
-        id.map((item,index)=>{
-            return(
-                <div className="parent">
-                    <div className="child" key={index}><img src={data.Image} alt="click here" /></div>
-                </div>
-            )
-        })
-    }
-    
-    </>
-  )
-}
+    <div>
+      <h1>{imageData.heading}</h1>
+      <img src={imageData.Image} alt="click here" />
+      <p>{imageData.description}</p>
+    </div>
+  );
+};
 
-export default Detaildesciption
+export default Detaildesciption;
+
+

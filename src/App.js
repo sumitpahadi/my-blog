@@ -8,7 +8,9 @@ import Home from "./Component/pages/Home"
 import Fitness from "./Component/pages/Fitness";
 import Food from "./Component/pages/Food";
 
+
 function App() {
+
   return (
     <div className="App">
       <Navbar />
@@ -19,6 +21,7 @@ function App() {
         <Route path="/technology" element={<Technology />} />
         <Route path="/fitness" element={<Fitness />} />
         <Route path="/food" element={<Food />} />
+        {/* <Route path="/detaildescription/:id"/> */}
       </Routes>
     </div>
   );

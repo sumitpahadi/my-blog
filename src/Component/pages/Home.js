@@ -1,16 +1,9 @@
-import React from "react";
 import Contextapi from "../Contextapi/Contextapi";
-import { useContext } from "react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate hook
+import React, { useContext } from "react";
 import "./Style.css";
-
 export const Home = () => {
   const Data = useContext(Contextapi);
   console.log(Data);
-
-  const navigate = useNavigate(); // Get the navigate function from the hook
-
-  // Function to handle navigation without refreshing the page
 
   return (
     <>
@@ -21,9 +14,9 @@ export const Home = () => {
           </div>
         </div>
 
-        <div className="second-conatiner">
+        <div className="second-container">
           <div className="image2">
-            <img src={Data[0].image2} alt=""/>
+            <img src={Data[0].image2} alt="" />
           </div>
           <div className="image3">
             <img src={Data[0].image3} alt="" />

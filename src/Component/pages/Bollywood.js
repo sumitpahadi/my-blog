@@ -29,8 +29,8 @@ export const Bollywood = () => {
           .filter((item) => item.id > 0 && item.id < 9)
           .map((data, index) => {
             return (
-              <div className="imagedata" key={index}>
-                <div className="child">
+              <div className="imagedata" key={index} >
+                <div className="child" >
                   <Link to={"/detaildescription/" + data.id}>
                     <img src={data.Image} alt="click here" />
                   </Link>
@@ -63,7 +63,7 @@ export const Bollywood = () => {
                       <div className="title">{data.heading}</div>
 
                       <div className="description">
-                        {truncateDescription(data.description, 30)}
+                        {truncateDescription(data.description, 15)}
                       </div>
                     </div>
                     <hr />
@@ -72,7 +72,7 @@ export const Bollywood = () => {
               })}
             <div className="load">
               {" "}
-              <span class="material-symbols-outlined">
+              <span className="material-symbols-outlined">
                 keyboard_double_arrow_down
               </span>
               LOAD MORE{" "}

@@ -197,13 +197,13 @@
 } */
 .bollywood-content .child{
   height: 131px;
-  width: 500px;
+  width: 305px;
   margin-top: 20px;
 }
 
 .bollywood-content .child img{
   float: left;
-  margin-right: 10px;
+  margin-right: 5px;
 
   
 }
@@ -214,8 +214,8 @@
   
 }
 .bollywood-content .child img{
-  height: 156px;
-  width: 176px;
+  height: 150px;
+    width: 150px;
 }
 
 .load{
@@ -237,8 +237,8 @@
 
 .bollywood-inner-content .child{
   height: 89px;
-  width: 500px;
-  margin-top: 20px;
+    width: 347px;
+    margin-top: 20px;
 
 }
 

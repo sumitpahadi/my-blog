@@ -119,28 +119,169 @@
 /* ------------------------------------------------bollywood css-------------------------------- */
 
 
-
-.bollywood-data{
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-
-.imagedata{
-
-  width: 400px;
-  height: auto;
+.boll-heading{
+  display: inline-block;
+  margin-left: 40px;
+  text-decoration: underline;
+  margin-top: 20px;
  
 
 }
-.imagedata img{
-  width: 100%;
-  height: 300px;
+.boll-heading h1{
+  font-family: Montserrat,sans-serif;
+  font-weight: 100;
 }
+.bollywood-data{
+  margin-top: 50px;
+  
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+ 
+
+}
+
+
+.title{
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+
+.child{
+
+  width: 305px;
+  margin-bottom: 50px;
+}
+
+
+.imagedata img{
+  height: 200px;
+  width: 100%;
+  
+}
+
+
 .heading{
   text-align: center;
   
+}
+
+
+
+/* -----------------------for stories stylling----------------------------- */
+
+
+.stories{
+  font-size: xx-large;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-left: 170px;
+  margin-bottom: 50px;
+}
+
+
+.bollywood-first-container{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-evenly;
+  gap: 20px;
+}
+
+
+/* .bollywood-firstinner-container{
+
+} */
+.bollywood-content .child{
+  height: 131px;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.bollywood-content .child img{
+  float: left;
+  margin-right: 10px;
+
+  
+}
+.bollywood-content .child .description{
+  float: revert;
+  
+
+  
+}
+.bollywood-content .child img{
+  height: 156px;
+  width: 176px;
+}
+
+.load{
+  font-size: xx-large;
+  margin: 30px;
+}
+.material-symbols-outlined{
+  font-size: xx-large;
+}
+
+/* -----------------------------top post-----------------------------------------------------  */
+
+
+.post{
+  font-size: xx-large;
+  font-weight: 200;
+  text-decoration: underline;
+}
+
+.bollywood-inner-content .child{
+  height: 89px;
+  width: 500px;
+  margin-top: 20px;
+
+}
+
+.bollywood-inner-content .child img{
+  height: 105px;
+  width: 114px;
+
+}
+
+.bollywood-inner-content .child img{
+  float: left;
+  margin-right: 10px;
+  
+}
+.bollywood-inner-content .child .description{
+  float: revert;
+}
+.count{
+  float: right;
+  font-size: 60px;
+  color: rgb(0, 110, 255);
+  font-weight: 900;
+}
+
+
+
+
+/* ------------------------ads----------------------- */
+
+
+
+
+.advertisement {
+  
+  margin-top: 50px;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh; 
+  border: 2px solid black;
+  width: 300px;
+}
+
+.advertisement p {
+  font-size: larger;
 }

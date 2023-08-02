@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import "./Style.css";
 
 export const Hollywood = () => {
+  let count=1;
   const bollywooddata = useContext(Contextapi);
  
 
@@ -86,6 +87,7 @@ export const Hollywood = () => {
             {bollywooddata
               .filter((item) => item.id >= 63 && item.id <=69)
               .map((data, index) => {
+                const count = index + 1;
                 return (
                   <>
                     <div className="child" key={index}>
@@ -97,7 +99,7 @@ export const Hollywood = () => {
                       <div className="description">
                         {truncateDescription(data.description, 10)}
                       </div>
-                      <div className="count">1</div>
+                      <div className="count">{count}</div>
                     </div>
 
                     <hr />

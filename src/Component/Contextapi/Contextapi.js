@@ -63,6 +63,37 @@ import sustainable_tech from "../images/sustainable-tech.jpg"
 
 
 
+// -------------------------Hollywood-----------------------------------------
+import barbie from "../images/barbie.jpg"
+import blackpanther from "../images/blackpanther.jpg"
+import blackwidow from "../images/blackwidow.jpg"
+import bloodshot from "../images/bloodshot.jpg"
+import captianmarvel from "../images/captianmarvel.jpg"
+
+import endgame from "../images/endgamme.jpg"
+import eternal from "../images/eternal.jpg"
+import f9 from "../images/f9.jpg"
+import flash from "../images/flash.jpg"
+import graymen from "../images/graymen.jpg"
+import gurdainofthegalaxy3 from "../images/gurdainofthegalaxy3.jpg"
+import junglecruise from "../images/junglecruise.jpg"
+import mortalcombat from "../images/mortalcombat.png"
+import nawayhome from "../images/nowayhome.jpeg"
+import quantum from "../images/quantumemnia.jpg"
+import shazam from "../images/shazam.jpg"
+
+import topgun from "../images/topgun.jpg"
+import transformer from "../images/transformer.jpg"
+import venom from "../images/venom.jpg"
+import avatar from "../images/avatar.jpg"
+import batman from "../images/batman.jpg"
+import extraction from "../images/extraction.jpg"
+import justiceleague from "../images/justiceleague.jpg"
+import dolittle from "../images/dolittle.jpg"
+
+
+
+
 const Contextapi = createContext([
   {
     id: 0,
@@ -343,6 +374,296 @@ description:"Biometric technologies refer to advanced methods of identifying and
     heading:"Sustainable technology",
 description:"Sustainable technology, also known as green technology,refers to innovative solutions that prioritize environmental stewardship and social responsibility. It focuses on minimizing negative impacts on the planet and fostering long-term ecological balance. This technology encompasses diverse fields, aiming to address environmental challenges and promote sustainable practices across industries and daily life.One of the key areas of sustainable technology is renewable energy, such as solar, wind, hydro, geothermal, and biomass, which reduces greenhouse gas emissions and lessens reliance on fossil fuels. Energy efficiency is another crucial aspect, involving the development of energy-efficient technologies and practices to optimize energy usage and lower carbon footprints.",
   },
+  {
+    id:46,
+    Image:avatar,
+    heading:"Avtar",
+    description:"Avatar is a visually stunning sci-fi epic set in the mid-22nd century. The story follows a paraplegic marine, Jake Sully, who becomes part of the Avatar Program on the distant world of Pandora. Using an Avatar, a hybrid of human DNA and Na'vi genes, he can interact with the indigenous Na'vi tribe. As he immerses himself in their culture, he forms a bond with Neytiri, a Na'vi princess. However, conflict arises as the human corporation seeks to exploit Pandora's valuable resources. Jake must choose between his loyalty to humanity and his newfound connection with the Na'vi, ultimately becoming the key to preserving Pandora's balance. It explores themes of environmentalism, colonization, and the impact of corporate greed on indigenous cultures.",
+  },
+  {
+    id:47,
+    Image:blackpanther,
+    heading:"Black Panther",
+    description:"Black Panther is a groundbreaking superhero film in the Marvel Cinematic Universe. It centers around T'Challa, the newly crowned king of the technologically advanced African nation of Wakanda. As the Black Panther, he must protect his people and their vibranium-rich resources from falling into the wrong hands. However, his leadership is challenged by Erik Killmonger, a formidable adversary with a personal vendetta against Wakanda. The movie delves into themes of identity, responsibility, and the African diaspora, while showcasing vibrant visuals and impressive action sequences. With its diverse cast and empowering message, Black Panther became a cultural phenomenon, inspiring audiences worldwide and leaving a lasting impact on popular culture.",
+  },
+  {
+    id:48,
+    Image:batman,
+    heading:"Batman",
+    description:"The Batman movie portrays the iconic DC Comics character, Bruce Wayne, who becomes the vigilante hero, Batman, after witnessing the murder of his parents as a child. Set in Gotham City, the dark and crime-infested metropolis, Batman fights against a wide array of villains, including The Joker, Catwoman, and The Penguin. Driven by a desire to protect the innocent and seek justice, he uses his intellect, martial arts skills, and advanced gadgets to combat crime. The film delves into Batman's internal struggles, exploring themes of vengeance, morality, and the line between heroism and vigilantism. With its brooding atmosphere and compelling storytelling, Batman remains a beloved and enduring character in popular culture.",
+  },
+  {
+    id:49,
+    Image:bloodshot,
+    heading:"Bloodshot",
+    description:"Bloodshot is a thrilling sci-fi action film based on the Valiant Comics character of the same name. The movie follows Ray Garrison, a soldier who is killed in action and resurrected by a team of scientists using nanotechnology, granting him superhuman abilities and the ability to heal rapidly. As Bloodshot, he seeks revenge against those responsible for his death and the murder of his wife.However, as he begins to uncover the truth about his past and the manipulations of the organization behind his resurrection, he questions his identity and purpose. Filled with intense action sequences and mind-bending twists, Bloodshot explores themes of memory, betrayal, and the consequences of unchecked power. Vin Diesel's compelling performance as Bloodshot adds depth to the character, making it an entertaining and action-packed ride for fans of the genre.",
+  },
+  {
+    id:50,
+    Image:extraction,
+    heading:"Extraction",
+    description:"Extraction is an adrenaline-pumping action thriller. The story revolves around Tyler Rake, a skilled black ops mercenary hired to rescue an international crime lord's kidnapped son in Dhaka, Bangladesh. As he navigates the dangerous underworld of the city, Tyler finds himself in a high-stakes rescue mission, facing a relentless and heavily armed enemy. Fueled by intense combat sequences and breathtaking stunt work, the film showcases Tyler's determination and skills as he fights against all odds to complete his mission. While carrying out the extraction, Tyler forms a bond with the young boy, leading him to question his own troubled past. Extraction is a gripping, non-stop adventure that keeps viewers on the edge of their seats until the explosive finale.",
+  },
+  {
+    id:51,
+    Image:justiceleague,
+    heading:"Justice League",
+    description:" Justice League unites DC Comics' iconic superheroes, including Batman, Wonder Woman, The Flash, Aquaman, and Cyborg. When a powerful extraterrestrial threat, Steppenwolf, threatens Earth, they join forces to protect the world from annihilation. Guided by Bruce Wayne (Batman), the team must set aside their differences and harness their unique abilities to form a formidable defense. Along the way, they honor the memory of Superman, who sacrificed himself for humanity. The movie is an action-packed spectacle, featuring epic battles, camaraderie, and the journey of these superheroes coming together to save the day. Justice League showcases the strength of teamwork, hope, and the resilience of Earth's mightiest heroes against overwhelming odds.",
+  },
+  {
+    id:52,
+    Image:dolittle,
+    heading:"Do Little",
+    description:"In Dolittle, Dr. John Dolittle, a renowned veterinarian with the ability to communicate with animals, lives a reclusive life after the death of his wife. When Queen Victoria falls gravely ill, he embarks on a daring journey to a mythical island in search of a cure, accompanied by a motley crew of talking animal companions. Facing perilous challenges and encountering extraordinary creatures, Dolittle rediscovers his sense of adventure and learns to heal from his past traumas. The movie is a heartwarming and whimsical adventure, filled with humor, friendship, and the magical bond between humans and animals. Robert Downey Jr. delivers a charming performance, making Dolittle a delightful family-friendly film.",
+  },
+  {
+    id:53,
+    Image:eternal,
+    heading:"Eternals",
+    description:"Eternals is a Marvel Cinematic Universe film that introduces a new group of ancient and immortal beings known as the Eternals. Created by the powerful cosmic beings called the Celestials, the Eternals possess incredible superhuman abilities and have lived on Earth for thousands of years, secretly influencing human history. However, when a long-dormant threat known as the Deviants resurfaces, the Eternals must reunite and face the challenge of protecting humanity from destruction. Directed by Chloé Zhao, Eternals promises to explore complex themes of destiny, sacrifice, and the purpose of existence while expanding the cosmic landscape of the MCU and introducing a diverse and compelling ensemble of characters.",
+  },
+  {
+    id:54,
+    Image:f9,
+    heading:"Fast and Furius",
+    description:"Fast & Furious is a high-octane action film franchise that revolves around the world of illegal street racing, heists, and espionage. Led by Dominic Toretto, a skilled street racer and master thief, the movies follow a close-knit group of daredevil drivers who value loyalty and family above all else. The series combines fast cars, thrilling stunts, and intense action sequences, making it a global blockbuster phenomenon. Over the course of the franchise, the characters face numerous challenges, adversaries, and personal struggles, while also navigating a world of government agents, international criminals, and high-speed escapades. Fast & Furious has evolved into a thrilling saga that continuously pushes the boundaries of vehicular mayhem and has garnered a massive and devoted fanbase worldwide.",
+  },
+  {
+    id:55,
+    Image:flash,
+    heading:"Flash",
+    description:"Worlds collide in The Flash when Barry uses his superpowers to travel back in time in order to change the events of the past. But when his attempt to save his family inadvertently alters the future, Barry becomes trapped in a reality in which General Zod has returned, threatening annihilation, and there are no Super Heroes to turn to. That is, unless Barry can coax a very different Batman out of retirement and rescue an imprisoned Kryptonian... albeit not the one he's looking for. Ultimately, to save the world that he is in and return to the future that he knows, Barry's only hope is to race for his life. But will making the ultimate sacrifice be enough to reset the universe?",
+  },
+  {
+    id:56,
+    Image:graymen,
+    heading:"Gray men",
+    description:"The directing team of brothers Anthony and Joe Russo have set their next project. The Gray Man, an adaptation of a 2009 novel by Mark Greaney, is set to release this summer on Netflix.Netflix is clearly committing itself to the project, with a reported budget of $200 million, the most expensive original film ever produced by the streamer. The original book by Mark Greaney is the first of eleven in The Gray Man series, so the Netflix project definitely has franchise potential. Greaney is also well known for being a longtime collaborator of Jack Ryan author Tom Clancy, with Greaney even continuing the Jack Ryan novel series after Clancy’s 2013 death. The Gray Man’s lead, Court Gentry, is a former CIA operative embarking on a mission across Europe, likely appealing to existing fans of the Jack Ryan series.",
+  },
+  {
+    id:57,
+    Image:gurdainofthegalaxy3,
+    heading:"Gurdian of the galaxy volume 3",
+    description:"Guardians of the Galaxy Vol. 3 (stylized as Guardians of the Galaxy Volume 3) is a 2023 superhero film, based on the Marvel Comics superhero team of the same name. The film is a sequel to Guardians of the Galaxy, Guardians of the Galaxy Vol. 2, Avengers: Endgame, Thor: Love and Thunder and The Guardians of the Galaxy Holiday Special. It is the thirty-second film in the Marvel Cinematic Universe and the second installment of Phase Five. The film was released on May 5, 2023.The film is written and directed by James Gunn and stars Chris Pratt as Peter Quill/Star-Lord, Zoe Saldana as Gamora, Dave Bautista as Drax the Destroyer, Karen Gillan as Nebula, Pom Klementieff as Mantis, featuring Vin Diesel as Groot, Bradley Cooper as Rocket Raccoon, Sean Gunn as Kraglin Obfonteri, Chukwudi Iwuji as High Evolutionary, Will Poulter as Adam Warlock, Elizabeth Debicki as Ayesha, Maria Bakalova as Cosmo and Sylvester Stallone as Stakar Ogord.",
+  },
+  {
+    id:58,
+    Image:junglecruise,
+    heading:"Jungle cruise",
+    description:"Jungle Cruise is a thrilling adventure film based on the famous Disneyland theme park ride. Set in the early 20th century, the story follows intrepid riverboat captain, Frank Wolff, and Dr. Lily Houghton, a determined explorer, on a dangerous quest through the Amazon jungle in search of a legendary tree with healing powers. Along the perilous journey, they encounter wild animals, supernatural forces, and face numerous challenges. The film combines action, humor, and romance as they unravel the mysteries of the jungle and confront their own beliefs. With charismatic performances from Dwayne Johnson and Emily Blunt, Jungle Cruise promises an entertaining and exhilarating ride for audiences of all ages.",
+  },
+  {
+    id:59,
+    Image:mortalcombat,
+    heading:"Mortal Combat",
+    description:"Mortal Kombat is an action-packed fantasy film based on the popular video game franchise of the same name. The story revolves around Earth's greatest champions, who are chosen to participate in an ancient tournament known as Mortal Kombat. They must battle against powerful adversaries from the Outworld in a high-stakes fight for the fate of the universe. Led by Cole Young, a new protagonist, the characters showcase their unique martial arts skills and special abilities, including iconic moves from the video games. The film is filled with intense fight sequences, gore, and references to the beloved game characters. Mortal Kombat caters to both fans of the video game series and action enthusiasts, delivering a brutal and visually stunning cinematic experience.",
+  },
+  {
+    id:60,
+    Image:nawayhome,
+    heading:"Spider man No way Home",
+    description:"Spider-Man: No Way Home is one mega mashup of colossal events which stitched the saga of this iconic superhero, through different universes, franchisees and talented actors. There’s no wonder that this was the most logical step for Marvel to go forward with, but even after all the speculation, build up, hype and god knows how many personal theories, this still very much feels like something truly out of the extraordinary.It packs so much heart and soul, and even with all of these different Spider-Man Villains coming together, it never loses attention to the fact that the character they really need to focus on is Peter Parker (Played by Tom Holland). The movie is an exceptional attempt at pushing him back to his roots, snatching the out worldly glamour that MCU always showered the character with, and bringing back the gritty realism and humanity that the source material was always known and loved for. ",
+  },
+  {
+    id:61,
+    Image:quantum,
+    heading:"Ant man Quantum mania",
+    description:"With Ant-Man and the Wasp: Quantumania, Marvel Studios decided to raise the stakes for the entire Marvel Cinematic Universe just as Phase 5 begins. The movie introduces Cassie Lang (Kathryn Newton) to the superhero life, the main attraction of Quantumania is undoubtedly Kang the Conqueror (Jonathan Majors), the villain of the next big MCU crossover, Avengers: The Kang Dynasty. While it might sound strange that a villain that’ll fight every Marvel hero at the same time has become the antagonist of Paul Rudd’s Ant-Man and Evangeline Lilly’s Wasp for Quantumania, the movie underlines how Kang is a force of nature. And by the time the credits roll, it’s clear the heroes only achieved their victory due to incredible luck and the arrival of unexpected allies. With Ant-Man and the Wasp: Quantumania now on Disney+, let’s break down the final battle and discuss all the forces at play in Quantumania's big showdown.",
+  },
+  {
+    id:62,
+    Image:shazam,
+    heading:"Shazam",
+    description:"Film begins with an Museum related action scene which has been explained in the following paragraphs. So, lets begin from the point where we see Billy as he is unsure if he’s cared for but if he turns 18, he’s wondering if the foster parents are going to get rid of him, he’s questioning his future if that makes sense so he’s getting a bit clingy and unsure of himself (is it sympathy for him or is it actual love?) and that’s something he’s going to find out as the film progresses. The first action sequence in the movie – well the second one technically – is on a collapsing bridge. The public knows them and knows about the Shazam family, and they have their opinions about them as some people criticize them some don’t.  So, they expand the layer of the superheroes in this big cave they hang out in there to talk about their social lives and debate their responsibilities.The Wizard, aka the original Shazam, and Billy have a conversation about the team and how serious they are about being heroes, but the Wizard tells him that he needs to that he needs to be the leader he needs to step up and be a leader and show that he can lead",
+  },
+  {
+    id:63,
+    Image:barbie,
+    heading:"Barbie",
+    description:"Barbie director and co-writer Greta Gerwig’s summer splash, is a dazzling achievement, both technically and in tone. It’s a visual feast that succeeds as both a gleeful escape and a battle cry. So crammed with impeccable attention to detail is barbie that you couldn’t possibly catch it all in a single sitting; you’d have to devote an entire viewing just to the accessories, for example. The costume design (led by two-time Oscar winner Jacqueline Durran) and production design (led by six-time Oscar nominee Sarah Greenwood) are constantly clever and colorful, befitting the ever-evolving icon, and cinematographer Rodrigo Prieto (a three-time Oscar nominee) gives everything a glossy gleam. It’s not just that Gerwig & Co. have recreated a bunch of Barbies from throughout her decades-long history, outfitted them with a variety of clothing and hairstyles, and placed them in pristine dream houses. It’s that they’ve brought these figures to life with infectious energy and a knowing wink.",
+  },
+  {
+    id:64,
+    Image:topgun,
+    heading:"Top Gun",
+    description:"Top Gun is a classic action drama film released in 1986, starring Tom Cruise as Pete Maverick  Mitchell, a young and talented naval aviator at the prestigious United States Navy Fighter Weapons School, also known as Top Gun. The story follows Maverick as he undergoes intense training to become the best fighter pilot, facing both personal and professional challenges.While at Top Gun, Maverick competes with his rival, Tom Iceman Kazansky, played by Val Kilmer, and develops a romantic relationship with his instructor, Charlie, portrayed by Kelly McGillis. The film is known for its thrilling aerial dogfight sequences, iconic soundtrack, and memorable performances.Top Gun became a massive hit and has since become a cultural phenomenon, celebrating the bravery and skill of fighter pilots while showcasing the risks and rewards of military service.",
+  },
+  {
+    id:65,
+    Image:transformer,
+    heading:"Transformers: Rise of the Beasts",
+    description:"Transformers: Rise of the Beasts is the seventh film in the live-action film series, serving both as a sequel to Bumblebee and a tribute to Beast Wars. The film is directed by Steven Caple Jr. and written by Joby Harold, Darnell Metayer, Josh Peters, Erich Hoeber, and Jon Hoeber. Originally expected to be released on June 28, 2019,[3] the film was delayed multiple times until finally being released on June 9, 2023.[4]When Noah Díaz, a struggling young man trying to provide for his family, is roped into a conflict between the marooned Autobots and the recently arrived Terrorcons, he must learn to work with weary Autobot leader Optimus Prime so they, with the help of the wise Maximals and the unadventurous researcher Elena Wallace, can stop the arrival of the planet-eater Unicron.",
+  },
+  {
+    id:66,
+    Image:venom,
+    heading:"Venom",
+    description:"Venom is a superhero film released in 2018, based on the Marvel Comics character of the same name. The movie stars Tom Hardy as Eddie Brock, an investigative journalist who becomes the host of an alien symbiote known as Venom. After an unsuccessful attempt to expose the unethical practices of the Life Foundation and its leader, Carlton Drake (played by Riz Ahmed), Eddie merges with the symbiote and gains superhuman abilities.As Venom, Eddie must navigate the challenges of sharing his body with the symbiote, who possesses a violent and unpredictable nature. Together, they form an unlikely antihero duo, using their newfound powers to protect innocent people and battle other symbiotes.",
+  }
+  ,
+  {
+    id:67,
+    Image:endgame,
+    heading:"Avenger Endgame",
+    description:"Avengers: Endgame is a superhero film released in 2019 and the epic conclusion to the Infinity Saga within the Marvel Cinematic Universe (MCU). Directed by Anthony and Joe Russo, the movie follows the aftermath of Avengers: Infinity War, where the villain Thanos successfully wiped out half of all life in the universe with the snap of his fingers using the Infinity Gauntlet.In Endgame, the surviving Avengers, including Iron Man, Captain America, Thor, Black Widow, and Hulk, among others, come together to devise a plan to reverse the devastating effects of Thanos' snap and restore the universe. The film involves time travel, emotional reunions, and battles across different timelines as the Avengers fight against formidable odds to bring back their fallen friends and save humanity from the brink of extinction.",
+  },
+  {
+    id:68,
+    Image:captianmarvel,
+    heading:"Captian marvel",
+    description:"Captain Marvel is a superhero film released in 2019 and part of the Marvel Cinematic Universe (MCU). The movie stars Brie Larson as Carol Danvers, a former U.S. Air Force pilot who becomes the powerful hero known as Captain Marvel. The story is set in the 1990s and follows Carol as she navigates her mysterious past while caught in a galactic conflict between two alien races, the Kree and the Skrulls.As Captain Marvel, Carol discovers her true potential and unlocks her extraordinary abilities, including super strength, energy projection, and the ability to fly. Alongside a young Nick Fury (played by Samuel L. Jackson), she works to prevent the Skrulls from using Earth as a battleground and unravel the secrets of her origin.",
+  },
+  {
+    id:69,
+    Image:blackwidow,
+    heading:"Black widow",
+    description:"Black Widow is a superhero film released in 2021 and part of the Marvel Cinematic Universe (MCU). The movie stars Scarlett Johansson as Natasha Romanoff, the skilled former Russian spy and Avenger known as Black Widow. Set between the events of Captain America: Civil War and Avengers: Infinity War, the film explores Natasha's past and delves into her early life as a highly trained assassin in the Red Room.In Black Widow, Natasha reunites with her long-lost surrogate family, including Yelena Belova (played by Florence Pugh), Alexei Shostakov/Red Guardian (played by David Harbour), and Melina Vostokoff (played by Rachel Weisz), to confront the ruthless villain, Taskmaster. Together, they must confront their shared history and take down the powerful organization behind the Red Room, where the Black Widows are trained.The film not only provides a compelling standalone adventure for Natasha Romanoff but also gives closure to her character's journey within the MCU. Black Widow delves into themes of family, identity, and redemption, while showcasing thrilling action sequences and the charisma of its cast. ",
+  },
+ 
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
+  // {
+  //   id:46,
+  //   Image:,
+  //   heading:"",
+  //   description:"".
+  // },
 
 
  

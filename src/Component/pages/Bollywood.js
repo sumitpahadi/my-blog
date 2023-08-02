@@ -6,7 +6,7 @@ import "./Style.css";
 
 export const Bollywood = () => {
   const bollywooddata = useContext(Contextapi);
-  console.log(bollywooddata);
+
 
   function truncateDescription(description, numWords) {
     const words = description.split(" ");

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import "./Style.css";
 function Technology() {
   const bollywooddata = useContext(Contextapi);
-  console.log(bollywooddata);
+
 
   function truncateDescription(description, numWords) {
     const words = description.split(" ");

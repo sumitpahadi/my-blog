@@ -52,6 +52,14 @@ import iphone from "../images/iphone.jpg"
 import ml from "../images/ml.jpg"
 
 
+import vr from "../images/vr.png"
+import mern from "../images/mern.png"
+import nanotech from "../images/Nanotechnology.jpg"
+import Biometric_Technologies from "../images/Biometric-Technologies.jpg"
+import spacetech from "../images/spacetech.jpg"
+import sustainable_tech from "../images/sustainable-tech.jpg"
+
+
 
 
 
@@ -301,10 +309,41 @@ const Contextapi = createContext([
   },
   {
     id:40,
-    Image:ml,
-    heading:" ",
-description:"",
+    Image:vr,
+    heading:"Virtual reality",
+description:"Virtual reality (VR) is an advanced technology that immerses users in a computer-generated, three-dimensional, interactive environment. It creates a simulated experience that can replicate real-world settings or transport users to entirely virtual and imaginative worlds. VR systems typically consist of a head-mounted display (HMD) worn by the user, which covers the eyes and displays the virtual environment, along with motion-tracking sensors that capture the user's movements.The goal of virtual reality is to create a sense of presence, where users feel as if they are physically present within the virtual environment they are experiencing.",
   },
+  {
+    id:41,
+    Image:mern,
+    heading:"MERN",
+description:"MERN is an acronym that represents a popular technology stack used in web development. It is a combination of four open-source technologies:MongoDB: A NoSQL database that stores data in a flexible, JSON-like format. MongoDB is known for its scalability, performance, and ability to handle large volumes of unstructured or semi-structured data.Express.js: A web application framework for Node.js, designed to simplify the process of building robust and scalable server-side applications and APIs. Express.js provides a set of features for handling HTTP requests, routing, and middleware.React: A JavaScript library for building user interfaces, primarily used for building dynamic and interactive frontend applications. React allows developers to create reusable UI components and efficiently update the user interface using a virtual DOM.Node.js: A JavaScript runtime environment that enables server-side execution of JavaScript code. Node.js uses an event-driven, non-blocking I/O model, making it efficient for handling concurrent connections and real-time applications.",
+  },
+  {
+    id:42,
+    Image:nanotech,
+    heading:"Nanotechnology",
+description:"Nanotechnology is a multidisciplinary field that deals with manipulating matter at the nanoscale, approximately one billionth of a meter. It involves designing and studying nanomaterials, which exhibit distinct properties compared to their bulk counterparts. Quantum effects become prominent at this scale, leading to unique behaviors and opportunities for research and innovation. Nanotechnology finds applications in diverse fields, including medicine, electronics, energy, and environmental remediation. In medicine, it enables targeted drug delivery and improved medical imaging. In electronics, nanotechnology facilitates the development of smaller, more efficient devices. Moreover, nanomaterials are utilized in nanocomposites, nanosensors, and water purification",
+  },
+  {
+    id:43,
+    Image:spacetech,
+    heading:"Space technology",
+description:"Space technology refers to the range of advanced tools, vehicles, and systems used for space exploration, research, and satellite communication. It encompasses spacecraft, satellites, space probes, telescopes, and rovers, among other cutting-edge equipment. Space technology enables humanity to study celestial bodies, understand the cosmos, and improve communication and navigation on Earth.Spacecraft are designed for travel and operation in space, both crewed and uncrewed. Satellites orbit Earth and other celestial bodies, providing critical data for communication, weather monitoring, and Earth observation. Space probes venture to distant planets and moons, uncovering secrets of our solar system. Rovers traverse planetary surfaces, conducting scientific experiments and data collection.",
+  },
+  {
+    id:44,
+    Image:Biometric_Technologies,
+    heading:"Biometric technologies",
+description:"Biometric technologies refer to advanced methods of identifying and authenticating individuals based on their unique physical or behavioral characteristics. These technologies have gained widespread use in various applications, from security systems to user verification and access control.Key biometric modalities include:Fingerprint Recognition: Analyzing and matching unique patterns in fingerprints for identification.Facial Recognition: Identifying individuals based on distinct facial features and proportionsIris Recognition: Analyzing the unique patterns in the colored part of the eye (iris) for identification.Voice Recognition: Identifying individuals based on their voice patterns and characteristics.Retina Recognition: Analyzing the unique patterns in the thin layer of tissue at the back of the eye (retina) for identification.Hand Geometry: Analyzing the shape and size of the hand for identification.",
+  },
+  {
+    id:45,
+    Image:sustainable_tech,
+    heading:"Sustainable technology",
+description:"Sustainable technology, also known as green technology,refers to innovative solutions that prioritize environmental stewardship and social responsibility. It focuses on minimizing negative impacts on the planet and fostering long-term ecological balance. This technology encompasses diverse fields, aiming to address environmental challenges and promote sustainable practices across industries and daily life.One of the key areas of sustainable technology is renewable energy, such as solar, wind, hydro, geothermal, and biomass, which reduces greenhouse gas emissions and lessens reliance on fossil fuels. Energy efficiency is another crucial aspect, involving the development of energy-efficient technologies and practices to optimize energy usage and lower carbon footprints.",
+  },
+
 
  
 

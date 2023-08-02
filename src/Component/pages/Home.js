@@ -28,45 +28,11 @@ export const Home = () => {
         <h1>The Latest</h1>
       </div>
 
-      <div className="data-container">
-        <div className="box"></div>
-        <div className="box"></div>
-        <div className="box"></div>
-        <div className="box"></div>
-        <div className="box"></div>
-        <div className="box"></div>
-        <div className="box"></div>
-        <div className="box"></div>
-      </div>
 
-      <div className="stories">Top stories</div>
-
-      <div className="top-second-container">
-        <div className="inner-container">
-          <div className="content"></div>
-          <div className="content"></div>
-          <div className="content"></div>
-          <div className="content"></div>
-          <div className="content"></div>
-          <div className="content"></div>
-          <div className="content"></div>
-          <div className="content"></div>
-          <div className="content"></div>
-          <div className="content"></div>
-          <div className="content"></div>
-          <div className="content"></div>
-          <div className="content"></div>
-          <div className="content"></div>
-        </div>
-        <div className="inner-second-container">
-          <div className="inner-content"></div>
-          <div className="inner-content"></div>
-          <div className="inner-content"></div>
-          <div className="inner-content"></div>
-          <div className="inner-content"></div>
-          <div className="inner-content1"></div>
-        </div>
-      </div>
+    
+       
+   
+     
     </>
   );
 };

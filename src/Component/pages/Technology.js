@@ -17,11 +17,11 @@ function Technology() {
     <>
       <>
         <div className="boll-heading">
-          <h1>Bollywood</h1>
+          <h1>Technology</h1>
         </div>
         <div className="bollywood-data">
           {bollywooddata
-            .filter((item) => item.id >=23 && item.id < 30)
+            .filter((item) => item.id >=23 && item.id < 31)
             .map((data, index) => {
               return (
                 <div className="imagedata" key={index}>
@@ -47,7 +47,7 @@ function Technology() {
           <div className="bollywood-firstinner-container">
             <div className="bollywood-content">
               {bollywooddata
-                .filter((item) => item.id >= 30 && item.id < 35)
+                .filter((item) => item.id >= 31 && item.id < 40)
                 .map((data, index) => {
                   return (
                     <>
@@ -79,7 +79,7 @@ function Technology() {
             <div className="bollywood-inner-content">
               <div className="post">Top Post</div>
               {bollywooddata
-                .filter((item) => item.id >= 35 && item.id <=39)
+                .filter((item) => item.id >= 40 && item.id <=45)
                 .map((data, index) => {
                   return (
                     <>

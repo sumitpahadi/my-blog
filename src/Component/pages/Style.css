@@ -10,8 +10,9 @@
 }
 
 .first-container {
-  max-width: 40%;
-  min-width: 400px; /* Adjust the minimum width to your desired value */
+  max-width: 900px; /* Adjust the minimum width to your desired value */
+  min-width: 400px;
+
   display: flex;
  
 }
@@ -19,26 +20,27 @@
 .image1 img {
   width: 100%;
   height: 500px;
-  border-radius: 20px;
+ 
 }
 
 .second-container {
-  max-width: 40%;
-  min-width: 400px; /* Adjust the minimum width to your desired value */
+  max-width: 900px;
+  min-width: 400px;
  
   flex-wrap: wrap;
   gap: 10px;
 }
 
+
 .image2 img {
   height: 250px;
   width: 100%;
-  border-radius: 20px;
+  
 }
 
 .image3 img {
   height: 250px;
-  border-radius: 20px;
+
   width: 100%;
 }
 
@@ -237,8 +239,8 @@
 
 .bollywood-inner-content .child{
   height: 89px;
-    width: 347px;
-    margin-top: 20px;
+  width: 500px;
+  margin-top: 20px;
 
 }
 

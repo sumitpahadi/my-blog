@@ -1,7 +1,7 @@
 import { createContext } from "react";
-import DDLJimage from '../images/DDLJimage.jpg';
-import RDJimage from '../images/RDJimage.jpg';
-import RDJimage2 from '../images/Ironman.jpg';
+import kgfposter from '../images/KGFposter.jpg';
+import robert from '../images/robertdown.jpg';
+import ai from '../images/ai.jpg';
 import pathan from '../images/pathan.jpg'
 import jawan from "../images/jawan.jpeg"
 import OM from "../images/OM.webp"
@@ -30,13 +30,37 @@ import villian from "../images/villain.jpg"
 
 
 
+// --------------------Technology--------------------------------------------
+
+import bard from "../images/BARD-AI.png"
+import g5 from "../images/5g.png"
+
+import threedprint from "../images/3dprint.png"
+import automatic from "../images/automation.jpg"
+import bigdata from "../images/Big-Data.jpg"
+import blockchain from "../images/blockchain.jpg"
+import  robotics from "../images/robotics.png"
+import Quantum from "../images/Quantum.png"
+import metaverse from "../images/metaverse.jpg"
+import  nlp from "../images/nlp.jpeg"
+import iot from "../images/IOT.jpg"
+import digital_twin from "../images/Digital-Twin.jpeg"
+import chatgpt from "../images/chatgpt.jpg"
+import cloud from "../images/cloudcompt.jpg"
+import cybersecqurity from "../images/cybersec.jpg"
+import iphone from "../images/iphone.jpg"
+import ml from "../images/ml.jpg"
+
+
+
+
 
 const Contextapi = createContext([
   {
     id: 0,
-    image1: DDLJimage,
-    image2: RDJimage,
-    image3: RDJimage2,
+    image1: kgfposter,
+    image2: robert,
+    image3: ai,
   },
   {
     id: 1,
@@ -175,52 +199,114 @@ const Contextapi = createContext([
   },
   {
     id:23,
-    Image:"",
-    heading:"",
-    description:"",
+    Image:bard,
+    heading:"Bard AI",
+    description:"Bard AI is an AI-powered language model developed by OpenAI. It is based on the GPT-3.5 architecture and is capable of understanding and generating human-like text. Bard AI can be used for various natural language processing tasks, including text generation, question answering, language translation, and more. It has been trained on a vast amount of diverse text data to learn patterns and relationships in language. With its ability to understand context and contextually generate text, Bard AI shows great potential in various applications, from chatbots and virtual assistants to content generation and creative writing assistance.",
   },
   {
     id:24,
-    Image:"",
-    heading:"",
-    description:"",
+    Image:g5,
+    heading:"5G",
+    description:"5G is the fifth generation of wireless technology for cellular networks. It is the successor to 4G LTE and offers significant improvements in terms of speed, capacity, and latency. 5G is designed to handle a massive increase in data traffic, catering to the growing number of connected devices and applications that demand high-speed and reliable internet access.One of the key features of 5G is its faster data transmission rates. It can deliver download speeds of up to several gigabits per second, allowing users to download large files, stream high-definition videos, and use bandwidth-intensive applications with ease. This enhanced speed opens up possibilities for innovative technologies like virtual reality, augmented reality, and cloud-based gaming.",
   },
   {
     id:25,
-    Image:"",
-    heading:"",
-    description:"",
+    Image:threedprint,
+    heading:"3d Printing",
+    description:"3D printing, also known as additive manufacturing, is a revolutionary manufacturing process that allows the creation of three-dimensional objects from digital models. Unlike traditional subtractive manufacturing methods that remove material from a solid block, 3D printing builds up the object layer by layer using various materials, such as plastics, metals, ceramics, and even living cells in some cases.The process starts with a 3D model created using computer-aided design (CAD) software or obtained from 3D scanning. ",
   },
   {
     id:26,
-    Image:"",
-    heading:"",
-    description:"",
+    Image:automatic,
+    heading:"Automation",
+    description:"Automation refers to the use of technology and computer-controlled systems to perform tasks and processes without direct human intervention. The main goal of automation is to streamline and optimize workflows, increase efficiency, and reduce the need for manual labor. It involves the application of machines, software, and artificial intelligence to perform repetitive or complex tasks with accuracy and speed.In the context of industrial automation, machines and robotic systems are used to carry out manufacturing processes, assembly lines, and material handling tasks. ",
   },
   {
     id:27,
-    Image:"",
-    heading:"",
-    description:"",
+    Image:bigdata,
+    heading:"Big Data",
+    description:"Big data refers to extremely large and complex sets of data that are beyond the capabilities of traditional data processing methods to manage, analyze, and extract valuable insights. The term big data encompasses not only the massive volume of data but also its high velocity, variety, and veracity.To handle big data, specialized technologies and tools are used, such as distributed storage systems (like Hadoop Distributed File System), distributed processing frameworks (like Apache Hadoop or Apache Spark), and NoSQL databases. These technologies enable parallel processing and distributed computing, allowing organizations to store, manage, and process big data efficiently.",
   },
   {
     id:28,
-    Image:"",
-    heading:"",
-    description:"",
+    Image:blockchain,
+    heading:"BlockChain",
+    description:"Blockchain is a decentralized and distributed digital ledger technology that allows multiple parties to maintain a secure and transparent record of transactions and information in a tamper-resistant manner. It was originally introduced as the underlying technology behind the cryptocurrency Bitcoin, but its applications extend far beyond digital currencies.In a traditional centralized system, data and records are stored and controlled by a single authority, such as a bank or government. In contrast, a blockchain network is decentralized, meaning it operates on a peer-to-peer basis, where each participant (or node) in the network has a copy of the entire ledger.",
   },
   {
     id:29,
-    Image:"",
-    heading:"",
-    description:"",
+    Image:robotics,
+    heading:"Robotics",
+    description:"It seems like you may have misspelled the term robotics. Let me provide you with a description of robotics:Robotics is a branch of engineering and technology that deals with the design, construction, operation, and application of robots. Robots are programmable machines or mechanical devices capable of carrying out tasks autonomously or semi-autonomously, often with human-like capabilities or in ways that simulate human actions. Robotics combines various disciplines, including mechanical engineering, electrical engineering, computer science, and artificial intelligence, to create intelligent and functional machines.",
   },
   {
     id:30,
-    Image:"",
-    heading:"",
-    description:"",
+    Image:Quantum,
+    heading:"Quantum Computing",
+    description:" Quantum computing is a cutting-edge field of computing that leverages the principles of quantum mechanics to perform complex calculations and solve problems that are practically intractable for classical computers. Unlike classical computers that use bits (0s and 1s) to represent and process data, quantum computers use quantum bits or qubits.Qubits have the unique property of existing in multiple states simultaneously due to a phenomenon called superposition. This allows quantum computers to process multiple pieces of information at the same time, providing exponential computational power compared to classical computers for certain types of problems.",
   },
+  {
+    id:31,
+    Image:metaverse,
+    heading:"Metaverse",
+    description:"The metaverse is a virtual, interconnected, and immersive digital universe where users can interact, socialize, and engage with one another and digital objects in real-time. It is a collective virtual space that combines augmented reality (AR), virtual reality (VR), and the internet to create a seamless and shared digital experience.In the metaverse, users can access and explore a vast and persistent virtual world through avatars, which represent their digital personas. These avatars allow users to interact with other people, objects, and environments, creating a sense of presence and shared experiences.",
+  },
+  {
+    id:32,
+    Image:nlp,
+    heading:"Natural Language Processing",
+    description:"NLP, which stands for Natural Language Processing, is a subfield of artificial intelligence (AI) and computational linguistics that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable computers to understand, interpret, and generate human language in a way that is meaningful and contextually relevant.The primary goal of NLP is to bridge the gap between human language and computer understanding. It allows computers to process and analyze vast amounts of natural language data, such as text and speech, to extract valuable information, patterns, and insights.",
+  },
+  {
+    id:33,
+    Image:iot,
+    heading:"",
+    description:"The Internet of Things (IoT) refers to the network of physical objects, devices, machines, and other items embedded with sensors, software, and connectivity that enables them to collect and exchange data over the internet. These things can range from everyday objects like home appliances and wearables to industrial equipment and smart city infrastructure. The main idea behind the IoT is to connect these devices and objects to the internet, allowing them to communicate with each other and with centralized systems. This connectivity enables real-time data collection, analysis, and remote control, leading to enhanced automation, efficiency, and decision-making.",
+  },
+  {
+    id:34,
+    Image:digital_twin,
+    heading:"Digital Twin",
+    description:"A digital twin is a virtual representation of a real-world physical object, system, or process. It is created using data collected from sensors, IoT devices, and other sources to mimic the characteristics, behavior, and status of its physical counterpart in real-time.The concept of a digital twin allows organizations to monitor, analyze, and optimize the performance of physical assets or systems remotely and more efficiently. By integrating real-time data with advanced analytics and simulation capabilities, digital twins provide valuable insights, predictive capabilities, and the ability to simulate what-if scenarios.",
+  },
+  {
+    id:35,
+    Image:chatgpt,
+    heading:"Chat gpt",
+    description:"ChatGPT is a language model developed by OpenAI based on the GPT-3.5 architecture. It is an advanced variant of the Generative Pre-trained Transformer (GPT) series of language models. ChatGPT is designed to understand and generate human-like text, making it capable of engaging in interactive conversations with users. The model has been trained on a massive dataset containing diverse text from the internet, allowing it to learn patterns and relationships in language across various topics and domains. It is equipped with 175 billion parameters, making it one of the largest language models to date.",
+  },
+  {
+    id:36,
+    Image:cloud,
+    heading:"Cloud Computing",
+    description:"Cloud computing is a computing paradigm that involves the delivery of on-demand computing resources over the internet. Instead of owning and maintaining physical hardware and software, users can access and use computing services, such as servers, storage, databases, networking, and software applications, provided by cloud service providers.The cloud computing model is based on the idea of remote data centers, where vast amounts of computing power and storage are made available to users on a pay-as-you-go or subscription basis. This allows businesses and individuals to scale their computing resources up or down based on their needs, without the need for significant upfront investments in hardware and infrastructure.",
+  },
+  {
+    id:37,
+    Image:cybersecqurity,
+    heading:"Cyber Secqurity",
+    description:"Cybersecurity, also known as information security or computer security, is the practice of protecting computer systems, networks, software, and data from unauthorized access, cyberattacks, and damage. It involves a set of measures, technologies, and practices designed to ensure the confidentiality, integrity, and availability of digital information.The rapid growth of digital technologies and the internet has brought about new security challenges, as cyber threats have become more sophisticated and prevalent. Cybersecurity aims to safeguard sensitive information, prevent data breaches, and defend against various types of cyberattacks, such as:Malware,Phishing,DOS",
+  },
+  {
+    id:38,
+    Image:iphone,
+    heading:"Iphone",
+    description:"Rumors suggest the iPhone 15 models will look similar to the iPhone 14 models, but the pill-and-hole cutout will expand to the entire lineup. That means all iPhone 15 models will have no notch, instead adopting the Dynamic Island introduced in the iPhone 14 Pro models.As there are no major design changes in store, Apple will continue to offer four models: The 6.1-inch iPhone 15, the 6.1-inch iPhone 15 Pro, the 6.7-inch iPhone 15 Max, and the 6.7-inch iPhone 15 Pro Max. The pro models will have higher-end features and will be more expensive, while the standard iPhone 15 models will be cheaper.",
+  },
+  {
+    id:39,
+    Image:ml,
+    heading:"Machine Learning",
+    description:"  Machine learning is a subfield of artificial intelligence (AI) that focuses on the development of algorithms and models that enable computers to learn from data and improve their performance on a specific task without being explicitly programmed. The core idea behind machine learning is to allow computers to identify patterns and make data-driven decisions based on examples or past experiences.In traditional programming, developers write explicit rules and instructions to solve a specific problem. However, in machine learning, the computer is trained using large amounts of data to learn from patterns and generalize its understanding to new, unseen data.",
+  },
+  {
+    id:40,
+    Image:ml,
+    heading:" ",
+description:"",
+  },
+
+ 
 
  
 

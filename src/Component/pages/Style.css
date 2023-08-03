@@ -263,10 +263,11 @@
   
 }
 .count{
-  float: right;
-  font-size: 60px;
-  color: rgb(0, 110, 255);
-  font-weight: 900;
+     float: right;
+    font-size: 60px;
+    color: rgb(0, 110, 255);
+    font-weight: 900;
+    transform: translateY(-22px);
 }
 
 

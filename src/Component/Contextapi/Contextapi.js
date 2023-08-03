@@ -94,6 +94,40 @@ import dolittle from "../images/dolittle.jpg"
 
 
 
+// --------------------------------------------------------fitness--------------------------------------------------------------------
+import abs from "../images/abs.jpg"
+import absmachine from "../images/absmachine.png"
+import abspull from "../images/abspull.jpg"
+import backwrout  from "../images/backwrout.jpg"
+import cheast from "../images/chest.jpeg"
+import legpress from "../images/leg press.jpg"
+import plank from "../images/plank.jpg"
+import pullups from "../images/pullups.jpg"
+
+
+import ronnicolmen from "../images/ronicoleman.jpeg"
+import sahilkhan from "../images/sahilkhsn.jpg"
+import steroidsym from "../images/steroidsym.jpg"
+import stnamkhattra from "../images/stnamkhattra.jpg"
+import joestics from "../images/joestics.jpg"
+import gymveg from "../images/gymveg.jpg"
+import suryanamaskar from "../images/suryanamaskar.jpg"
+import yoga from "../images/yog1.jpg"
+import yoga1 from "../images/yog3.jpg"
+
+
+import cbum from "../images/cbum.jpg"
+import cedricmcmilian from "../images/cedricmcmilian.jpg"
+
+import rodchest from "../images/rodchest.webp"
+import shoulder1 from "../images/shoulder1.jpg"
+import shoulder2 from "../images/shoulder2.jpg"
+
+
+
+
+
+
 const Contextapi = createContext([
   {
     id: 0,
@@ -520,154 +554,412 @@ description:"Sustainable technology, also known as green technology,refers to in
     description:"Black Widow is a superhero film released in 2021 and part of the Marvel Cinematic Universe (MCU). The movie stars Scarlett Johansson as Natasha Romanoff, the skilled former Russian spy and Avenger known as Black Widow. Set between the events of Captain America: Civil War and Avengers: Infinity War, the film explores Natasha's past and delves into her early life as a highly trained assassin in the Red Room.In Black Widow, Natasha reunites with her long-lost surrogate family, including Yelena Belova (played by Florence Pugh), Alexei Shostakov/Red Guardian (played by David Harbour), and Melina Vostokoff (played by Rachel Weisz), to confront the ruthless villain, Taskmaster. Together, they must confront their shared history and take down the powerful organization behind the Red Room, where the Black Widows are trained.The film not only provides a compelling standalone adventure for Natasha Romanoff but also gives closure to her character's journey within the MCU. Black Widow delves into themes of family, identity, and redemption, while showcasing thrilling action sequences and the charisma of its cast. ",
   },
  
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
-  // {
-  //   id:46,
-  //   Image:,
-  //   heading:"",
-  //   description:"".
-  // },
+  {
+    id:70,
+    Image:abs,
+    heading:"Abs exercise(1",
+    description:"Crunches are a popular and effective abdominal exercise that targets the rectus abdominis muscles, also known as the six-pack muscles. To perform crunches, lie on your back with your knees bent and feet flat on the floor. Place your hands behind your head, keeping your elbows out to the sides.Next, contract your abdominal muscles and lift your upper body towards your knees, while exhaling. Make sure to keep your lower back on the floor and avoid pulling on your neck with your hands. Hold the contraction for a moment, then slowly lower your upper body back to the starting position while inhaling.",
+  },
+  {
+    id:71,
+    Image:absmachine,
+    heading:"Abs exercise(2)",
+    description:"Using an abs machine, start with seated leg raises. Sit on the machine, place your back against the padded support, and grip the handles. Raise your legs towards your chest, engaging your abs. Slowly lower them back down without letting your feet touch the ground. Next, do the oblique crunch. Sit sideways on the machine with your knees bent. Hold the handles and twist your torso to the side, bringing your elbow towards the opposite knee. Return to the starting position and switch sides.Finally, try the torso rotation exercise. Sit facing forward, hold the handles, and keep your back straight. Rotate your torso to one side, then back to center, and repeat on the other side.",
+  },
+  {
+    id:72,
+    Image:abspull,
+    heading:"Abs exercise",
+    description:" For an effective abs workout with pull-ups using a pull-up bar on the road or outdoors, try the following exercises:Hanging Knee Raises: Hang from the pull-up bar with an overhand grip, shoulder-width apart. Engage your core muscles and lift your knees towards your chest, then lower them back down. Aim for 10-12 reps.Hanging Leg Raises: Similar to the knee raises, but this time, keep your legs straight while lifting them towards the ceiling. Lower them back down with control. Perform 8-10 reps Windshield Wipers: Hang from the bar and lift your legs together towards one side, then lower them to the opposite side in a controlled, swinging motion. Keep your core tight throughout the movement. Do 8-10 reps on each side.Pull-Up Hold with Leg Raise: Perform a standard pull-up by gripping the bar with your palms facing away and pulling yourself up until your chin is above the bar. Hold this position for a few seconds, then raise your knees towards your chest while maintaining the hold. Lower your legs and release the pull-up. Aim for 6-8 reps.",
+  },
+  {
+    id:73,
+    Image:backwrout,
+    heading:"Back exercise",
+    description:"One effective back exercise is the Bent-Over Row. This exercise targets the major muscles in your back, including the latissimus dorsi, rhomboids, and trapezius. Performing Bent-Over Rows offers several benefits:Strengthens Back Muscles: It helps build strength in your upper and middle back, which is crucial for maintaining proper posture and supporting your spine.Improves Posture: By targeting the muscles responsible for pulling your shoulders back, Bent-Over Rows can help counteract the effects of poor posture caused by prolonged sitting and slouching. Enhances Upper Body Functionality: The exercise also engages your biceps, forearms, and shoulders, contributing to overall upper body strength and functionality. Promotes Balance and Symmetry: By working both sides of your back evenly, Bent-Over Rows help promote muscular balance and symmetry, reducing the risk of muscle imbalances and potential injuries. ",
+  },
+  {
+    id:74,
+    Image:cheast,
+    heading:"Butterfly",
+    description:"Starting Position: Sit on the floor with a straight back and bring the soles of your feet together. Allow your knees to drop outwards towards the floor, creating a diamond shape with your legs Hold Your Feet: Hold onto your feet with your hands. You can grasp your ankles, toes, or interlock your fingers around your feet, whichever feels comfortable.Engage Your Core: Sit up tall and engage your core muscles to maintain a straight back throughout the exercise Butterfly Movement: Gently press your knees towards the floor using your elbows, feeling the stretch in your inner thighs. Avoid forcing your knees down; instead, allow them to relax and go as far as your flexibility allows. Hold the Stretch: Hold the stretch for 20-30 seconds while taking deep breaths. Feel the tension in your inner thighs gradually release as you relax into the stretch. Repeat: You can repeat the Butterfly exercise 2-3 times, taking short breaks between each stretch.",
+  },
+  {
+    id:75,
+    Image:legpress,
+    heading:"Leg Press exercise",
+    description:"Set Up: Sit on the leg press machine with your back against the padded backrest. Place your feet shoulder-width apart on the footplate, ensuring your toes are pointed slightly outward.Adjust Seat Position: Adjust the seat position so that your knees are at a 90-degree angle when your legs are fully bent. This will allow for proper range of motion.Engage Your Core: Before starting the movement, engage your core to stabilize your spine throughout the exercise Pressing Motion: Push the footplate away from your body by extending your legs. Keep your back flat against the backrest and avoid rounding your lower back Full Extension: Fully extend your legs without locking your knees at the top of the movement. Pause briefly before beginning the descent. Controlled Descent: Slowly bend your knees and lower the footplate back towards your body. Control the weight and avoid letting it slam down.Repeat: Perform the desired number of repetitions, usually 8-12 reps per set. Start with a weight that challenges you while maintaining proper form. ",
+  },
+  {
+    id:76,
+    Image:plank,
+    heading:"Plank exercise",
+    description:"The plank is a highly effective bodyweight exercise that targets the core muscles, including the rectus abdominis, transverse abdominis, obliques, and lower back. Here's how to perform the plank exercise  Starting Position: Begin by getting into a push-up position on the floor, with your hands directly under your shoulders. Your body should form a straight line from your head to your heels. Engage Your Core: Tighten your core muscles by pulling your belly button towards your spine. This engagement will help stabilize your spine and protect your lower back.Hold the Plank: Maintain this straight body position, ensuring your hips are neither sagging nor raised too high. Keep your neck in line with your spine and your gaze towards the floor Breathing: Breathe steadily and evenly throughout the exercise. Avoid holding your breath. Hold Time: Start by holding the plank for 20-30 seconds, gradually increasing the duration as your core strength improves.Tips for a proper plank: Avoid arching your back or allowing your hips to sag towards the ground  Keep your shoulders away from your ears to prevent neck strain Distribute your weight evenly between your hands and toes For a more challenging variation, you can perform a forearm plank by placing your forearms on the ground instead of your hands The plank is an excellent exercise for building core strength, stability, and improving posture. Additionally, it engages the muscles of the upper body and legs to some extent. It's a versatile exercise that can be incorporated into various workout routines or used as part of a core-focused workout. Remember to focus on maintaining proper form rather than holding the plank for an extended period. Quality and control are more important than the duration of the hold. ",
+  },
+  {
+    id:77,
+    Image:pullups,
+    heading:"Pull Ups exercise",
+    description:"Pull-ups are a bodyweight exercise performed using a pull-up bar. Start by gripping the bar with palms facing away and hands shoulder-width apart. Hang with arms fully extended, then engage your back muscles to pull your body upward until your chin is above the bar. Lower yourself down with control. Pull-ups target the upper body, primarily the back, shoulders, and arms, and are great for building strength and improving upper body functional fitness. Proper form and consistency are essential for maximizing the benefits of this exercise.",
+  },
+  {
+    id:78,
+    Image:ronnicolmen,
+    heading:"Ronnie Coleman King",
+    description:"Ronnie Dean Coleman was born on Wednesday, 13 May 1964 in Monroe, Louisiana, US. His zodiac sign is Taurus. He did his schooling at Bastrop High School. He holds a bachelor’s degree of science in accounting from Grambling State University (GSU) in Grambling, Louisiana. He played athletics and powerlifting during his school days and played Rugby as a middle linebacker with the GSU Tigers under coach Eddie Robinson. After completing his graduation, he could not find any job as an accountant, hence he started working at Domino’s Pizza. On 20 March 1989, he became a Police officer in Arlington, Texas and worked regularly till 2000 and as a reserve officer till 25 July 2003.",
+  },
+  {
+    id:79,
+    Image:sahilkhan,
+    heading:"Sahil Khan",
+    description:"Sahil Khan has had many feats in his glorious career. And now, the youth and fitness icon has entered the Guinness World Record. He, along with the well-known martial arts expert Vispy Kharadi, performed a dangerous stunt together in Surat on October 4, 2022. As part of this stunt, Vispy put himself between two huge concrete blocks, embedded with nails. Sahil wielded a hamper and broke the upper block, wowing the audiences and the world at large. It was a 525 kg block that was broken by Sahil Khan and thus he proved that nothing is impossible in this world Sahil Khan started his career as an actor and his first appearance was in the music video, ‘Nachange Saari Raat’. He debuted in Bollywood with the comic caper, Style (2001). It emerged as a huge success and was patronized highly by the youth. Since it was a huge hit, the makers made a sequel, Xcuse Me (2003), which also starred Sahil.",
+  },
+  {
+    id:80,
+    Image:steroidsym,
+    heading:"Steroids in Gym",
+    description:"  The use of steroids in the gym is a controversial and risky practice. Anabolic steroids, synthetic versions of the hormone testosterone, are sometimes used to accelerate muscle growth and enhance athletic performance. However, their use comes with serious health risks and potential legal consequences. Steroids can lead to liver damage, cardiovascular issues, hormonal imbalances, and psychological effects such as aggression and mood swings. Additionally, their possession and distribution without a prescription are illegal in many countries. Apart from health concerns, using steroids may result in unnatural muscle growth and can be easily recognized in fitness communities. It is crucial to prioritize long-term health and well-being by focusing on natural methods of muscle development, such as proper nutrition, consistent training, and adequate rest. Before considering any performance-enhancing substances, individuals should seek advice from healthcare professionals or qualified fitness experts to make informed decisions and avoid potential harm.",
+  },
+  {
+    id:81,
+    Image:stnamkhattra,
+    heading:"Satnam Khattra die",
+    description:"Satnam Khattra, a well-known fitness coach, model, and bodybuilder from Jalandhar, India, tragically passed away at the young age of 31 on Saturday, August 29, 2020. His coach, Rohit Khera, announced his death on social media. It was reported that he had been unwell for some time before suffering a heart attack at his home in the early morning. Satnam had a significant presence on social media, with a large following and over 3.7 lac followers on Instagram. Despite his earlier struggles with drug addiction, he had transformed his life through physical fitness over the course of eight years. During the lockdown, he conducted online fitness classes and had plans to launch his own fitness brand. His untimely death came as a shock to many, as he was admired by the youth for his fitness journey and inspiring story of overcoming adversity.",
+  },
+  {
+    id:82,
+    Image:joestics,
+    heading:"Joestics Dead News",
+    description:"Jo Lindner, a famous fitness influencer on social media, passed away at the age of 30 due to an unexpected aneurysm on July 2. This news left his fans in shock and condolences soon started pouring on his various social media accounts. His girlfriend, Nicha, confirmed his tragic passing on Instagram, expressing her grief and referring to Jo as an extraordinary individual in this world. The German YouTuber, popularly known as Joesthetics, received outpouring tributes across various social media platforms. Jo has been regularly sharing videos showcasing his life there. Alongside his 940,000 subscribers, the bodybuilder shared workout tips, and dietary advice, and even displayed his shoe collection. But how did Jo die? What is the reason behind Jo’s death? As per reports, Joesthetics died due to aneurysms. ",
+  },
+  {
+    id:83,
+    Image:gymveg,
+    heading:"Healthy food ",
+    description:"Maintaining a healthy lifestyle involves a combination of regular exercise and a balanced diet. The gym and healthy food go hand in hand when it comes to achieving fitness goals and overall well-being. Regular workouts at the gym help build strength, endurance, and flexibility while promoting cardiovascular health. Exercise also plays a crucial role in managing weight and reducing the risk of various health conditions.    However, the benefits of hitting the gym are greatly amplified when complemented with a nutritious diet. Healthy food choices provide the body with essential nutrients, vitamins, and minerals necessary for optimal functioning. A diet rich in fruits, vegetables, lean proteins, whole grains, and healthy fats helps support muscle recovery, aids in weight management, and boosts energy levels for more effective workouts.",
+  },
+  {
+    id:84,
+    Image:suryanamaskar,
+    heading:"Yoga benefits heart health",
+    description:"Yoga offers a multitude of benefits for heart health, making it an excellent addition to a heart-healthy lifestyle. Regular practice of yoga has been shown to have a positive impact on cardiovascular health in various ways  Firstly, yoga can help reduce stress and anxiety, which are known risk factors for heart disease. By engaging in mindful breathing and relaxation techniques, yoga promotes a sense of calmness, leading to lower cortisol levels and reduced sympathetic nervous system activity.Secondly, many yoga poses and sequences involve gentle to moderate physical activity, which can help improve circulation, lower blood pressure, and enhance overall cardiovascular function. Certain poses, like backbends and chest-opening postures, can improve chest expansion, thereby increasing lung capacity and oxygen uptake.",
+  },
+  {
+    id:85,
+    Image:yoga,
+    heading:"Benifits of yoga",
+    description:"Yoga offers a wide range of physical, mental, and emotional benefits, making it a holistic practice that positively impacts overall well-being. Firstly, on a physical level, yoga improves flexibility, strength, and balance. Regular practice of various yoga poses and sequences helps lengthen and stretch muscles, increasing joint mobility and reducing the risk of injuries.Secondly, yoga promotes relaxation and stress reduction. Through focused breathing techniques and meditation, yoga encourages mindfulness, which helps calm the mind and lowers cortisol levels, the stress hormone. This, in turn, leads to improved mental clarity, reduced anxiety, and better sleep patterns.Thirdly, yoga can support cardiovascular health. Some yoga practices involve dynamic movements and gentle cardio exercises, which contribute to better circulation, lower blood pressure, and improved heart health.",
+  },
+  {
+    id:86,
+    Image:yoga1,
+    heading:"Yoga reduces stress",
+    description:"Indeed, yoga is renowned for its ability to reduce stress and promote relaxation. The practice of yoga incorporates various techniques, including breathwork, meditation, and physical postures, which collectively contribute to stress reduction.One of the primary ways yoga reduces stress is through controlled breathing. Deep, mindful breathing exercises, such as pranayama, activate the parasympathetic nervous system, also known as the rest and digest response. This counteracts the fight or flight response of the sympathetic nervous system, leading to a calmer state of mind and a decrease in stress hormone levels, like cortisol.The physical aspect of yoga involves holding poses, which helps release tension and tightness in the muscles.",
+  },
+  {
+    id:87,
+    Image:cbum,
+    heading:"Cbum Mr.Olympia winner",
+    description:"Canadian bodybuilder Chris Bumstead had no intention of pursuing bodybuilding as a career even after the formative years of his life. Had it not been for various events in his life, Bumstead might not have participated on this arduous journey of making a career out of this sport.Born and brought up in Ottawa, Ontario, Bumstead, like most other children, was interested in various sports like soccer, baseball, basketball and ice hockey. It was for his participation in these sports that Bumstead started to get a hang of the gym which eventually blossomed into a successful career.Bumstead, who had started to develop a muscular physique during his school days, had first tried his hand at a regional-level bodybuilding competition in Ontario itself. Perhaps inspired by his elder sister Melissa Valliere, it was quite a day for the siblings as both of them returned home with laurels.    ",
+  },
+  {
+    id:88,
+    Image:cedricmcmilian,
+    heading:"Cedricmcmilian Die in young age",
+    description:"McMillan, a long-time veteran of the US Army and National Guard, was a veteran bodybuilder and 2017 winner of the prestigious Arnold Classic.His death was confirmed online by his sponsor, Black Skull USA, though the cause has not been made public.It is the third death of a well-known bodybuilder in the US in the past year.We regret to inform you that our friend and brother @cedricmcmillan passed away today Black Skull USA said on Instagram. Cedric will be greatly missed as an athlete, comrade, friend and father McMillan became a professional bodybuilder in 2009, before going on to win a string of competitions culminating in the 2017 Arnold Classic, named after bodybuilder, actor and former California governor Arnold Schwarzenegger.",
+  },
+  {
+    id:89,
+    Image:rodchest,
+    heading:"Bench press",
+    description:"The bench press is a fundamental and widely practiced strength training exercise that targets the muscles in the chest, shoulders, and triceps. It is a popular choice for individuals looking to build upper body strength, increase muscle mass, and enhance overall functional fitness. The exercise is typically performed on a flat bench with a barbell or dumbbells.During the bench press, proper form is crucial to ensure effectiveness and prevent injuries. As you lie flat on the bench, your feet planted firmly on the ground, you grip the barbell slightly wider than shoulder-width apart. Lower the barbell towards your chest in a controlled manner, maintaining a 90-degree angle at your elbows. Then, press the barbell back up, extending your arms fully.",
+  },
+  {
+    id:90,
+    Image:shoulder1,
+    heading:"Dumbbell shoulder press",
+    description:"The dumbbell shoulder press is a highly effective and popular exercise that targets the shoulder muscles, particularly the deltoids, trapezius, and triceps. It is performed using dumbbells, making it a versatile and accessible exercise for individuals of different fitness levels.To execute the dumbbell shoulder press, begin by sitting on a bench with back support or standing upright. Hold a dumbbell in each hand at shoulder height, palms facing forward. Press the dumbbells upward, extending your arms fully overhead, while keeping your wrists aligned with your shoulders. Lower the dumbbells back down to shoulder level with control.The dumbbell shoulder press not only strengthens the shoulder muscles but also engages the stabilizing muscles in the core and upper back.",
+  },
+  {
+    id:91,
+    Image:shoulder2,
+    heading:"Upper right shoulder exercise",
+    description:"To target the upper right shoulder, there are several effective exercises to choose from. One commonly recommended exercise is the lateral raise. To perform this exercise, stand with your feet shoulder-width apart, holding a dumbbell in each hand. Keep your arms straight and your palms facing your body. Slowly raise the dumbbells out to the sides until they are at shoulder level, then lower them back down with control. Repeat for the desired number of repetitions.Another effective exercise for the upper right shoulder is the overhead press. Stand with your feet shoulder-width apart, holding a dumbbell in each hand at shoulder level with your palms facing forward. Press the dumbbells upward until your arms are fully extended overhead, then lower them back down to shoulder level. Ensure to engage your core throughout the movement to stabilize your body.",
+  },
+  {
+    id:92,
+    Image:"https://img.freepik.com/free-photo/vertical-shot-traditional-indian-paneer-butter-masala-cheese-cottage-curry-black-surface_181624-32001.jpg?w=740&t=st=1691047601~exp=1691048201~hmac=b76015509610eeeab6f6d5a77ae6c60610cfda86e06501d5868565a136cc9e3d",
+    heading:"",
+    description:"",
+  },
+  {
+    id:93,
+    Image:"https://img.freepik.com/free-photo/fried-spring-rolls-cutting-board_1150-17010.jpg?w=1060&t=st=1691048435~exp=1691049035~hmac=3d8547e0fc02d587ab0b3c286487d3f976bc71aab8d1ed5ab0d8494d9440397d",
+    heading:"",
+    description:"",
+  },
+  {
+    id:94,
+    Image:"https://img.freepik.com/premium-photo/pot-chicken-curry-with-yellow-plate-food-black-background_854441-41.jpg?w=360",
+    heading:"",
+    description:"",
+  },
+  {
+    id:95,
+    Image:"https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill_2829-18813.jpg?w=1060&t=st=1691048107~exp=1691048707~hmac=78250bd5288575b5d635440b203842b886dfc3070dd8b8210d4b58fc2b9e4dc1",
+    heading:"",
+    description:"",
+  },
+  {
+    id:96,
+    Image:"https://img.freepik.com/premium-photo/indian-hindu-veg-thali-food-platter-selective-focus_466689-36051.jpg?w=1060",
+    heading:"",
+    description:"",
+  },
+  {
+    id:97,
+    Image:"https://img.freepik.com/premium-photo/indian-hindu-veg-thali-food-platter-selective-focus_466689-36051.jpg?w=1060",
+    heading:"",
+    description:"",
+  },
+  {
+    id:98,
+    Image:"https://img.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg?w=740&t=st=1691048120~exp=1691048720~hmac=fb4d111e52d7c0288ee5787cc44abb51126497a023d39531e9f7f43b9c76536c",
+    heading:"",
+    description:"",
+  },
+  {
+    id:99,
+    Image:"https://img.freepik.com/free-photo/top-view-delicious-noodles-concept_23-2148773774.jpg?w=1060&t=st=1691048159~exp=1691048759~hmac=f26b141241cd71f990e3decfe3df2879d80ed47c9ba2cce51575a9ed4a29e069",
+    heading:"",
+    description:"",
+  },
+  {
+    id:100,
+    Image:"https://img.freepik.com/premium-photo/rava-upma-uppuma-south-indian-breakfast-served-bowl-selective-focus_466689-53765.jpg?w=1060",
+    heading:"",
+    description:"",
+  },
+  {
+    id:101,
+    Image:"https://img.freepik.com/premium-photo/rava-upma-uppuma-south-indian-breakfast-served-bowl-selective-focus_466689-53765.jpg?w=1060",
+    heading:"",
+    description:"",
+  },
+  {
+    id:102,
+    Image:"https://img.freepik.com/premium-photo/rava-upma-uppuma-south-indian-breakfast-served-bowl-selective-focus_466689-53765.jpg?w=1060",
+    heading:"",
+    description:"",
+  },
+  {
+    id:103,
+    Image:"https://img.freepik.com/premium-photo/rava-upma-uppuma-south-indian-breakfast-served-bowl-selective-focus_466689-53765.jpg?w=1060",
+    heading:"",
+    description:"",
+  },
+  {
+    id:104,
+    Image:"https://img.freepik.com/free-photo/high-angle-delicious-pita_23-2148734733.jpg?w=1060&t=st=1691048290~exp=1691048890~hmac=e73ea452f6de5ca5dafafa9613827533546c780ec0dd7746b4b7069438bf1759",
+    heading:"",
+    description:"",
+  },
+  {
+    id:105,
+    Image:"https://img.freepik.com/free-photo/delicious-macarons-arrangement_23-2150684126.jpg?w=1060&t=st=1691048319~exp=1691048919~hmac=e95b961cfa1e8b558eab81cd2b5dc483e6b2141c032bcdf104dddd3852eba500",
+    heading:"",
+    description:"",
+  },
+  {
+    id:106,
+    Image:"https://img.freepik.com/free-photo/delicious-macarons-arrangement_23-2150684126.jpg?w=1060&t=st=1691048319~exp=1691048919~hmac=e95b961cfa1e8b558eab81cd2b5dc483e6b2141c032bcdf104dddd3852eba500",
+    heading:"",
+    description:"",
+  },
+  {
+    id:107,
+    Image:"https://img.freepik.com/free-photo/delicious-macarons-arrangement_23-2150684126.jpg?w=1060&t=st=1691048319~exp=1691048919~hmac=e95b961cfa1e8b558eab81cd2b5dc483e6b2141c032bcdf104dddd3852eba500",
+    heading:"",
+    description:"",
+  },
+  {
+    id:108,
+    Image:"https://img.freepik.com/premium-photo/kozhukatta-pidi-is-steamed-snack-food-from-kerala-rice-flour-with-finger-impressions_466689-87165.jpg?w=1060",
+    heading:"",
+    description:"",
+  },
+  {
+    id:109,
+    Image:"https://img.freepik.com/premium-photo/kozhukatta-pidi-is-steamed-snack-food-from-kerala-rice-flour-with-finger-impressions_466689-87165.jpg?w=1060",
+    heading:"",
+    description:"",
+  },
+  {
+    id:110,
+    Image:"https://img.freepik.com/free-photo/fried-spring-rolls-cutting-board_1150-17010.jpg?w=1060&t=st=1691048435~exp=1691049035~hmac=3d8547e0fc02d587ab0b3c286487d3f976bc71aab8d1ed5ab0d8494d9440397d",
+    heading:"",
+    description:"",
+  },
+  {
+    id:111,
+    Image:"https://img.freepik.com/free-photo/baked-chicken-wings-asian-style-tomatoes-sauce-plate_2829-10657.jpg?w=1060&t=st=1691048474~exp=1691049074~hmac=11c33d596a5d8222a28abbcc9b3666472704d7bcc873ccc0e67322bd1c244d8b",
+    heading:"",
+    description:"",
+  },
+  {
+    id:112,
+    Image:"https://img.freepik.com/free-photo/baked-chicken-wings-asian-style-tomatoes-sauce-plate_2829-10657.jpg?w=1060&t=st=1691048474~exp=1691049074~hmac=11c33d596a5d8222a28abbcc9b3666472704d7bcc873ccc0e67322bd1c244d8b",
+    heading:"",
+    description:"",
+  },
+  {
+    id:113,
+    Image:"https://img.freepik.com/premium-photo/indian-hindu-veg-thali-food-platter-selective-focus_466689-36051.jpg?w=1060",
+    heading:"",
+    description:"",
+  },
 
 
- 
+  // ---------------------------------------------------home--------------------------------
+  {
+    id:114,
+    Image:flash,
+    heading:"Flash",
+    description:"Worlds collide in The Flash when Barry uses his superpowers to travel back in time in order to change the events of the past. But when his attempt to save his family inadvertently alters the future, Barry becomes trapped in a reality in which General Zod has returned, threatening annihilation, and there are no Super Heroes to turn to. That is, unless Barry can coax a very different Batman out of retirement and rescue an imprisoned Kryptonian... albeit not the one he's looking for. Ultimately, to save the world that he is in and return to the future that he knows, Barry's only hope is to race for his life. But will making the ultimate sacrifice be enough to reset the universe?",
+  },
+  {
+    id:115,
+    Image:iphone,
+    heading:"Iphone",
+    description:"Rumors suggest the iPhone 15 models will look similar to the iPhone 14 models, but the pill-and-hole cutout will expand to the entire lineup. That means all iPhone 15 models will have no notch, instead adopting the Dynamic Island introduced in the iPhone 14 Pro models.As there are no major design changes in store, Apple will continue to offer four models: The 6.1-inch iPhone 15, the 6.1-inch iPhone 15 Pro, the 6.7-inch iPhone 15 Max, and the 6.7-inch iPhone 15 Pro Max. The pro models will have higher-end features and will be more expensive, while the standard iPhone 15 models will be cheaper.",
+   },
+  {
+    id:116,
+    Image:extraction,
+    heading:"Extraction",
+    description:"Extraction is an adrenaline-pumping action thriller. The story revolves around Tyler Rake, a skilled black ops mercenary hired to rescue an international crime lord's kidnapped son in Dhaka, Bangladesh. As he navigates the dangerous underworld of the city, Tyler finds himself in a high-stakes rescue mission, facing a relentless and heavily armed enemy. Fueled by intense combat sequences and breathtaking stunt work, the film showcases Tyler's determination and skills as he fights against all odds to complete his mission. While carrying out the extraction, Tyler forms a bond with the young boy, leading him to question his own troubled past. Extraction is a gripping, non-stop adventure that keeps viewers on the edge of their seats until the explosive finale.",
+   },
+  {
+    id:117,
+    Image:joestics,
+    heading:"Joestics Dead News",
+    description:"Jo Lindner, a famous fitness influencer on social media, passed away at the age of 30 due to an unexpected aneurysm on July 2. This news left his fans in shock and condolences soon started pouring on his various social media accounts. His girlfriend, Nicha, confirmed his tragic passing on Instagram, expressing her grief and referring to Jo as an extraordinary individual in this world. The German YouTuber, popularly known as Joesthetics, received outpouring tributes across various social media platforms. Jo has been regularly sharing videos showcasing his life there. Alongside his 940,000 subscribers, the bodybuilder shared workout tips, and dietary advice, and even displayed his shoe collection. But how did Jo die? What is the reason behind Jo’s death? As per reports, Joesthetics died due to aneurysms. ",
+  },
+  {
+    id:118,
+    Image:ml,
+    heading:"Machine Learning",
+    description:"  Machine learning is a subfield of artificial intelligence (AI) that focuses on the development of algorithms and models that enable computers to learn from data and improve their performance on a specific task without being explicitly programmed. The core idea behind machine learning is to allow computers to identify patterns and make data-driven decisions based on examples or past experiences.In traditional programming, developers write explicit rules and instructions to solve a specific problem. However, in machine learning, the computer is trained using large amounts of data to learn from patterns and generalize its understanding to new, unseen data.",
+  },
+  {
+    id:119,
+    Image:mortalcombat,
+    heading:"Mortal Combat",
+    description:"Mortal Kombat is an action-packed fantasy film based on the popular video game franchise of the same name. The story revolves around Earth's greatest champions, who are chosen to participate in an ancient tournament known as Mortal Kombat. They must battle against powerful adversaries from the Outworld in a high-stakes fight for the fate of the universe. Led by Cole Young, a new protagonist, the characters showcase their unique martial arts skills and special abilities, including iconic moves from the video games. The film is filled with intense fight sequences, gore, and references to the beloved game characters. Mortal Kombat caters to both fans of the video game series and action enthusiasts, delivering a brutal and visually stunning cinematic experience.",
+  },
+  {
+    id:120,
+    Image:steroidsym,
+    heading:"Steroids in Gym",
+    description:"  The use of steroids in the gym is a controversial and risky practice. Anabolic steroids, synthetic versions of the hormone testosterone, are sometimes used to accelerate muscle growth and enhance athletic performance. However, their use comes with serious health risks and potential legal consequences. Steroids can lead to liver damage, cardiovascular issues, hormonal imbalances, and psychological effects such as aggression and mood swings. Additionally, their possession and distribution without a prescription are illegal in many countries. Apart from health concerns, using steroids may result in unnatural muscle growth and can be easily recognized in fitness communities. It is crucial to prioritize long-term health and well-being by focusing on natural methods of muscle development, such as proper nutrition, consistent training, and adequate rest. Before considering any performance-enhancing substances, individuals should seek advice from healthcare professionals or qualified fitness experts to make informed decisions and avoid potential harm.",
+   },
+   {
+    id:121,
+    Image:ronnicolmen,
+    heading:"Ronnie Coleman King",
+    description:"Ronnie Dean Coleman was born on Wednesday, 13 May 1964 in Monroe, Louisiana, US. His zodiac sign is Taurus. He did his schooling at Bastrop High School. He holds a bachelor’s degree of science in accounting from Grambling State University (GSU) in Grambling, Louisiana. He played athletics and powerlifting during his school days and played Rugby as a middle linebacker with the GSU Tigers under coach Eddie Robinson. After completing his graduation, he could not find any job as an accountant, hence he started working at Domino’s Pizza. On 20 March 1989, he became a Police officer in Arlington, Texas and worked regularly till 2000 and as a reserve officer till 25 July 2003.",
+  },
+   {
+    id:122,
+    Image:barbie,
+    heading:"Barbie",
+    description:"Barbie director and co-writer Greta Gerwig’s summer splash, is a dazzling achievement, both technically and in tone. It’s a visual feast that succeeds as both a gleeful escape and a battle cry. So crammed with impeccable attention to detail is barbie that you couldn’t possibly catch it all in a single sitting; you’d have to devote an entire viewing just to the accessories, for example. The costume design (led by two-time Oscar winner Jacqueline Durran) and production design (led by six-time Oscar nominee Sarah Greenwood) are constantly clever and colorful, befitting the ever-evolving icon, and cinematographer Rodrigo Prieto (a three-time Oscar nominee) gives everything a glossy gleam. It’s not just that Gerwig & Co. have recreated a bunch of Barbies from throughout her decades-long history, outfitted them with a variety of clothing and hairstyles, and placed them in pristine dream houses. It’s that they’ve brought these figures to life with infectious energy and a knowing wink.",
+ },
+   {
+    id:123,
+    Image:sahilkhan,
+    heading:"Sahil Khan",
+    description:"Sahil Khan has had many feats in his glorious career. And now, the youth and fitness icon has entered the Guinness World Record. He, along with the well-known martial arts expert Vispy Kharadi, performed a dangerous stunt together in Surat on October 4, 2022. As part of this stunt, Vispy put himself between two huge concrete blocks, embedded with nails. Sahil wielded a hamper and broke the upper block, wowing the audiences and the world at large. It was a 525 kg block that was broken by Sahil Khan and thus he proved that nothing is impossible in this world Sahil Khan started his career as an actor and his first appearance was in the music video, ‘Nachange Saari Raat’. He debuted in Bollywood with the comic caper, Style (2001). It emerged as a huge success and was patronized highly by the youth. Since it was a huge hit, the makers made a sequel, Xcuse Me (2003), which also starred Sahil.",
+  },
+   {
+    id:124,
+    Image:cybersecqurity,
+    heading:"Cyber Secqurity",
+    description:"Cybersecurity, also known as information security or computer security, is the practice of protecting computer systems, networks, software, and data from unauthorized access, cyberattacks, and damage. It involves a set of measures, technologies, and practices designed to ensure the confidentiality, integrity, and availability of digital information.The rapid growth of digital technologies and the internet has brought about new security challenges, as cyber threats have become more sophisticated and prevalent. Cybersecurity aims to safeguard sensitive information, prevent data breaches, and defend against various types of cyberattacks, such as:Malware,Phishing,DOS",
+  },
+   {
+    id:125,
+    Image:rr ,
+    heading: "RRR",
+    description: "RRR (Roudram Ranam Rudhiram) is an epic action-drama film directed by S.S. Rajamouli, featuring N. T. Rama Rao Jr., Ram Charan, Alia Bhatt, and Ajay Devgn. Set in the early 20th century, the film revolves around India's freedom fighters, Alluri Sitarama Raju and Komaram Bheem, who fought against the British Raj and the Nizam of Hyderabad, respectively RRR promises a visual spectacle with breathtaking action sequences and grandeur. The narrative is driven by the powerful ideologies of the protagonists and their relentless pursuit of freedom and justice. With its stellar cast, top-notch production values, and Rajamouli's visionary direction, RRR is highly anticipated, making it one of the most awaited films in Indian cinema."
 
+  },
+   {
+    id:126,
+    Image:"https://img.freepik.com/free-photo/vertical-shot-traditional-indian-paneer-butter-masala-cheese-cottage-curry-black-surface_181624-32001.jpg?w=740&t=st=1691047601~exp=1691048201~hmac=b76015509610eeeab6f6d5a77ae6c60610cfda86e06501d5868565a136cc9e3d",
+    heading:"",
+    description:"",
+  },
+   {
+    id:127,
+    Image:chatgpt,
+    heading:"Chat gpt",
+    description:"ChatGPT is a language model developed by OpenAI based on the GPT-3.5 architecture. It is an advanced variant of the Generative Pre-trained Transformer (GPT) series of language models. ChatGPT is designed to understand and generate human-like text, making it capable of engaging in interactive conversations with users. The model has been trained on a massive dataset containing diverse text from the internet, allowing it to learn patterns and relationships in language across various topics and domains. It is equipped with 175 billion parameters, making it one of the largest language models to date.",
+  },
+   {
+    id:128,
+    Image:tujhootimaimakar ,
+    heading: "Toh jhoothi mai makkaar",
+    description: "Toh Jhoothi Mai Makkaar is a comedy-drama film directed by a renowned filmmaker. The story revolves around the life of a quirky and charismatic protagonist who finds himself entangled in a series of hilarious and comical situations due to his habit of lying and deceiving others. The film takes the audience on a roller-coaster ride of laughter and entertainment as the protagonist's lies keep growing, leading to numerous misunderstandings and humorous encounters with various characters.",
+  },
+   {
+    id:129,
+    Image:stnamkhattra,
+    heading:"Satnam Khattra die",
+    description:"Satnam Khattra, a well-known fitness coach, model, and bodybuilder from Jalandhar, India, tragically passed away at the young age of 31 on Saturday, August 29, 2020. His coach, Rohit Khera, announced his death on social media. It was reported that he had been unwell for some time before suffering a heart attack at his home in the early morning. Satnam had a significant presence on social media, with a large following and over 3.7 lac followers on Instagram. Despite his earlier struggles with drug addiction, he had transformed his life through physical fitness over the course of eight years. During the lockdown, he conducted online fitness classes and had plans to launch his own fitness brand. His untimely death came as a shock to many, as he was admired by the youth for his fitness journey and inspiring story of overcoming adversity.",
+ },
+   {
+    id:130,
+    Image:g5,
+    heading:"5G",
+    description:"5G is the fifth generation of wireless technology for cellular networks. It is the successor to 4G LTE and offers significant improvements in terms of speed, capacity, and latency. 5G is designed to handle a massive increase in data traffic, catering to the growing number of connected devices and applications that demand high-speed and reliable internet access.One of the key features of 5G is its faster data transmission rates. It can deliver download speeds of up to several gigabits per second, allowing users to download large files, stream high-definition videos, and use bandwidth-intensive applications with ease. This enhanced speed opens up possibilities for innovative technologies like virtual reality, augmented reality, and cloud-based gaming.",
+  },
+   {
+    id:131,
+    Image:pullups,
+    heading:"Pull Ups exercise",
+    description:"Pull-ups are a bodyweight exercise performed using a pull-up bar. Start by gripping the bar with palms facing away and hands shoulder-width apart. Hang with arms fully extended, then engage your back muscles to pull your body upward until your chin is above the bar. Lower yourself down with control. Pull-ups target the upper body, primarily the back, shoulders, and arms, and are great for building strength and improving upper body functional fitness. Proper form and consistency are essential for maximizing the benefits of this exercise.",
+ },
+ {
+  id:133,
+  Image:graymen,
+  heading:"Gray men",
+  description:"The directing team of brothers Anthony and Joe Russo have set their next project. The Gray Man, an adaptation of a 2009 novel by Mark Greaney, is set to release this summer on Netflix.Netflix is clearly committing itself to the project, with a reported budget of $200 million, the most expensive original film ever produced by the streamer. The original book by Mark Greaney is the first of eleven in The Gray Man series, so the Netflix project definitely has franchise potential. Greaney is also well known for being a longtime collaborator of Jack Ryan author Tom Clancy, with Greaney even continuing the Jack Ryan novel series after Clancy’s 2013 death. The Gray Man’s lead, Court Gentry, is a former CIA operative embarking on a mission across Europe, likely appealing to existing fans of the Jack Ryan series.",
+},
+ {
+  id:134,
+  Image:endgame,
+  heading:"Avenger Endgame",
+  description:"Avengers: Endgame is a superhero film released in 2019 and the epic conclusion to the Infinity Saga within the Marvel Cinematic Universe (MCU). Directed by Anthony and Joe Russo, the movie follows the aftermath of Avengers: Infinity War, where the villain Thanos successfully wiped out half of all life in the universe with the snap of his fingers using the Infinity Gauntlet.In Endgame, the surviving Avengers, including Iron Man, Captain America, Thor, Black Widow, and Hulk, among others, come together to devise a plan to reverse the devastating effects of Thanos' snap and restore the universe. The film involves time travel, emotional reunions, and battles across different timelines as the Avengers fight against formidable odds to bring back their fallen friends and save humanity from the brink of extinction.",
+},
+ {
+  id:135,
+  Image:Biometric_Technologies,
+  heading:"Biometric technologies",
+description:"Biometric technologies refer to advanced methods of identifying and authenticating individuals based on their unique physical or behavioral characteristics. These technologies have gained widespread use in various applications, from security systems to user verification and access control.Key biometric modalities include:Fingerprint Recognition: Analyzing and matching unique patterns in fingerprints for identification.Facial Recognition: Identifying individuals based on distinct facial features and proportionsIris Recognition: Analyzing the unique patterns in the colored part of the eye (iris) for identification.Voice Recognition: Identifying individuals based on their voice patterns and characteristics.Retina Recognition: Analyzing the unique patterns in the thin layer of tissue at the back of the eye (retina) for identification.Hand Geometry: Analyzing the shape and size of the hand for identification.",
+ },
+ {
+  id:136,
+  Image:absmachine,
+  heading:"Abs exercise(2)",
+  description:"Using an abs machine, start with seated leg raises. Sit on the machine, place your back against the padded support, and grip the handles. Raise your legs towards your chest, engaging your abs. Slowly lower them back down without letting your feet touch the ground. Next, do the oblique crunch. Sit sideways on the machine with your knees bent. Hold the handles and twist your torso to the side, bringing your elbow towards the opposite knee. Return to the starting position and switch sides.Finally, try the torso rotation exercise. Sit facing forward, hold the handles, and keep your back straight. Rotate your torso to one side, then back to center, and repeat on the other side.",
+},
+ {
+  id:137,
+  Image:cbum,
+  heading:"Cbum Mr.Olympia winner",
+  description:"Canadian bodybuilder Chris Bumstead had no intention of pursuing bodybuilding as a career even after the formative years of his life. Had it not been for various events in his life, Bumstead might not have participated on this arduous journey of making a career out of this sport.Born and brought up in Ottawa, Ontario, Bumstead, like most other children, was interested in various sports like soccer, baseball, basketball and ice hockey. It was for his participation in these sports that Bumstead started to get a hang of the gym which eventually blossomed into a successful career.Bumstead, who had started to develop a muscular physique during his school days, had first tried his hand at a regional-level bodybuilding competition in Ontario itself. Perhaps inspired by his elder sister Melissa Valliere, it was quite a day for the siblings as both of them returned home with laurels.    ",
+}
  
 
 ]);

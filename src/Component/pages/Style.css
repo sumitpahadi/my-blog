@@ -2,49 +2,55 @@
 
 /* -----------------------------------------home css ------------------------------------------ */
 .top-container {
-  display: flex;
+  display: grid;
   margin-top: 40px;
+  grid-template-columns: 600px 300px; /* Updated: Use 1fr instead of pixel values */
+ 
   justify-content: center;
   gap: 10px;
-  flex-wrap: wrap;
-}
-
-.first-container {
-  max-width: 900px; /* Adjust the minimum width to your desired value */
-  min-width: 400px;
-
-  display: flex;
  
 }
 
-.image1 img {
+.first-container img{
+  height: 515px;
   width: 100%;
-  height: 500px;
+}
+.second-container img{
+  height: 250px;
+  width: 100% ;
+}
+.third-container img{
+  height: 250px;
+  width: 100%;
+}
+.first-container {
  
+  grid-column: 1/2;
+ 
+  grid-row: 1/3;
 }
 
 .second-container {
-  max-width: 900px;
-  min-width: 400px;
+
  
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-
-.image2 img {
-  height: 250px;
-  width: 100%;
   
+
+  grid-column: 2/3;
+  grid-row: 1/2;
 }
 
-.image3 img {
-  height: 250px;
+.third-container {
 
-  width: 100%;
+
+ 
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
+/* Add the following CSS to make images resize according to grid cells */
 
+
+/* ----------------------------new ------------------------- */
 
 
 
@@ -291,4 +297,86 @@
 
 .advertisement p {
   font-size: larger;
+}
+
+
+
+/* -----------------------------------------------media query----------------------------------------- */
+
+
+
+
+@media screen and (min-width:750px) and (max-width:1027px){
+  .top-container {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: 400px 200px; /* Updated: Use 1fr instead of pixel values */
+   
+    justify-content: center;
+    gap: 10px;
+   
+  }
+  
+.first-container img{
+  height: 315px;
+  width: 100%;
+}
+.second-container img{
+  height: 150px;
+  width: 100% ;
+}
+.third-container img{
+  height: 150px;
+  width: 100%;
+}
+
+
+}
+
+
+@media screen and (min-width:300px) and (max-width:750px)
+{
+
+
+  .top-container {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: 1fr; 
+    
+   
+    justify-content: center;
+    gap: 10px;
+   
+  }
+
+
+  .first-container {
+ 
+    grid-column: 1/2;
+   
+    grid-row: 1/2;
+  }
+  .first-container img{
+    height: 300px;
+    width: 100%;
+  }
+  .second-container {
+  
+   
+    
+  
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  
+  .third-container {
+  
+  
+   
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  
+
+
 }

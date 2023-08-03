@@ -3,14 +3,10 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "./Style.css";
 export const Home = () => {
-
   const bollywooddata = useContext(Contextapi);
 
-
-  
   const Data = useContext(Contextapi);
   console.log(Data);
-
 
   function truncateDescription(description, numWords) {
     const words = description.split(" ");
@@ -23,36 +19,27 @@ export const Home = () => {
     <>
       <div className="top-container">
         <div className="first-container">
-          <div className="image1">
-            <img src={Data[0].image1} alt="" />
-          </div>
+          <img src={Data[0].image1} alt="" />
         </div>
 
         <div className="second-container">
-          <div className="image2">
-            <img src={Data[0].image2} alt="" />
-          </div>
-          <div className="image3">
-            <img src={Data[0].image3} alt="" />
-          </div>
+          <img src={Data[0].image2} alt="" />
+        </div>
+        <div className="third-container">
+          <img src={Data[0].image3} alt="" />
         </div>
       </div>
-     
-
-
-
-
 
       <div className="boll-heading">
         <h1>The Latest</h1>
       </div>
       <div className="bollywood-data">
         {bollywooddata
-          .filter((item) => item.id >=114 && item.id < 122)
+          .filter((item) => item.id >= 114 && item.id < 122)
           .map((data, index) => {
             return (
-              <div className="imagedata" key={index} >
-                <div className="child" >
+              <div className="imagedata" key={index}>
+                <div className="child">
                   <Link to={"/detaildescription/" + data.id}>
                     <img src={data.Image} alt="click here" />
                   </Link>
@@ -67,7 +54,6 @@ export const Home = () => {
           })}
       </div>
 
-
       {/* --------------top stories------------------------ */}
       <div className="stories">Top stories</div>
 
@@ -75,7 +61,7 @@ export const Home = () => {
         <div className="bollywood-firstinner-container">
           <div className="bollywood-content">
             {bollywooddata
-              .filter((item) => item.id >= 122 && item.id <132)
+              .filter((item) => item.id >= 122 && item.id < 132)
               .map((data, index) => {
                 return (
                   <>
@@ -107,7 +93,7 @@ export const Home = () => {
           <div className="bollywood-inner-content">
             <div className="post">Top Post</div>
             {bollywooddata
-              .filter((item) => item.id >= 132 && item.id <=137)
+              .filter((item) => item.id >= 132 && item.id <= 137)
               .map((data, index) => {
                 const count = index + 1;
                 return (
@@ -134,13 +120,6 @@ export const Home = () => {
           </div>
         </div>
       </div>
-    
-
-
-    
-       
-   
-     
     </>
   );
 };

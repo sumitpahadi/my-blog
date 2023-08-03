@@ -24,6 +24,7 @@
   width: 100%;
 }
 .first-container {
+  
  
   grid-column: 1/2;
  
@@ -34,7 +35,7 @@
 
  
   
-
+ 
   grid-column: 2/3;
   grid-row: 1/2;
 }
@@ -141,8 +142,8 @@
 }
 .bollywood-data{
   margin-top: 50px;
-  
   display: flex;
+  gap: 10px;
   justify-content: space-evenly;
   flex-wrap: wrap;
   
@@ -218,7 +219,7 @@
 }
 .bollywood-content .child .description{
   float: revert;
-  width: 365px;
+  width: 325px;
   
 
   
@@ -306,7 +307,7 @@
 
 
 
-@media screen and (min-width:750px) and (max-width:1027px){
+@media screen and (min-width:620px) and (max-width:1027px){
   .top-container {
     display: grid;
     margin-top: 40px;
@@ -334,7 +335,7 @@
 }
 
 
-@media screen and (min-width:300px) and (max-width:750px)
+@media screen and (min-width:300px) and (max-width:620px)
 {
 
 
@@ -351,6 +352,8 @@
 
 
   .first-container {
+    display: flex;
+    justify-content: center;
  
     grid-column: 1/2;
    
@@ -358,18 +361,25 @@
   }
   .first-container img{
     height: 300px;
-    width: 100%;
+    width: 90%;
+  }
+  .second-container img{
+    width: 90%;
+  }
+  .third-container img{
+    width: 90%;
   }
   .second-container {
-  
-   
-    
-  
+    display: flex;
+    justify-content: center;
     grid-column: 1/2;
     grid-row: 2/3;
   }
   
   .third-container {
+    display: flex;
+    justify-content: center;
+   
   
   
    

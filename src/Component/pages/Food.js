@@ -64,7 +64,7 @@ export const Food = () => {
                       <div className="title">{data.heading}</div>
 
                       <div className="description">
-                        {truncateDescription(data.description, 15)}
+                        {truncateDescription(data.description, 8)}
                       </div>
                     </div>
                     <hr />

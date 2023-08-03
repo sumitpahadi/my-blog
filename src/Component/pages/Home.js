@@ -105,7 +105,7 @@ export const Home = () => {
                       <div className="title">{data.heading}</div>
 
                       <div className="description">
-                        {truncateDescription(data.description, 10)}
+                        {truncateDescription(data.description, 8)}
                       </div>
                       <div className="count">{count}</div>
                     </div>

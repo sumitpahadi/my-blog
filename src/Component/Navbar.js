@@ -51,8 +51,10 @@ export const Navbar = () => {
           <NavLink to="/food">Food</NavLink>
         </li>
       </ul>
+     
     </nav>
     <hr />
+   
     </>
   );
 };

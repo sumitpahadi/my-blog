@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import "./Style.css";
 function Technology() {
-  let count=0
+
   const bollywooddata = useContext(Contextapi);
 
 

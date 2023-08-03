@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import "./Style.css";
 
 export const Hollywood = () => {
-  let count=1;
   const bollywooddata = useContext(Contextapi);
  
 

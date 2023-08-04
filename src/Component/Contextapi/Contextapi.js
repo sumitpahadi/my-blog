@@ -155,6 +155,10 @@ import stringmeggi from "../images/stingmaggienew.jpg"
 
 
 
+// -description---------
+import congress from "../images/congress.webp"
+import sbi from "../images/STU Banner_mainpage_link.png"
+import news24 from "../images/googlenew.jpeg"
 
 
 
@@ -995,7 +999,24 @@ description:"Biometric technologies refer to advanced methods of identifying and
   heading:"Cbum Mr.Olympia winner",
   description:"Canadian bodybuilder Chris Bumstead had no intention of pursuing bodybuilding as a career even after the formative years of his life. Had it not been for various events in his life, Bumstead might not have participated on this arduous journey of making a career out of this sport.Born and brought up in Ottawa, Ontario, Bumstead, like most other children, was interested in various sports like soccer, baseball, basketball and ice hockey. It was for his participation in these sports that Bumstead started to get a hang of the gym which eventually blossomed into a successful career.Bumstead, who had started to develop a muscular physique during his school days, had first tried his hand at a regional-level bodybuilding competition in Ontario itself. Perhaps inspired by his elder sister Melissa Valliere, it was quite a day for the siblings as both of them returned home with laurels.    ",
 }
- 
+ ,{
+  id:138,
+  Image:congress,
+  heading:"BREAKING| Supreme Court Stays Conviction Of Congress Leader Rahul Gandhi In 'Modi-Thieves' Defamation Case Which Disqualified Him mp",
+  description:"The Supreme Court on Friday stayed the conviction of Congress leader and former Member of Parliament (MP) Rahul Gandhi  in the criminal defamation case over the why all thieves have Modi surname remark. With the stay of his conviction, Rahul Gandhi's disqualification as MP also now remains in abeyance.Particularly when the offense was non-compoundable, bailable, and cognizable, the least which was expected from the learned trial judge was to give reasons for imposing the maximum punishment. Though the learned appellate court and the High Court have spent voluminous pages in rejecting the applications, these aspects are not seen considered",
+ },
+ {
+  id:139,
+  Image:sbi,
+  heading:"SBI Q1 2024 results: Net profit all-time high, jumps 178% to ₹16,884 crore",
+  description:"State Bank of India (SBI) unveiled its Q1 results today reporting net profit in Q1FY24 zooms 178% to ₹16,884 crore from ₹6,068 crore, YoY. The largest state-run lender in the country net interest income in the quarter ended June 2023 rose 24.5% to ₹38,904 crore from ₹31,195.9 crore, YoY.The SBI share price commenced at ₹594.90 each, nearly 1% higher on the BSE in anticipation of the Q1 results on Friday. However, it later fell to ₹585.95 at 1:30pm, showing a decrease from the previous day's closing price of ₹590.60.SBI's net interest margin is 3.47%SBI's net interest margin, a crucial measure of profitability, climbed to 3.47% from 3.23% compared to the previous year.The bank witnessed a notable 13.9% rise in its gross loans compared to the previous year, coupled with a 12% increase in deposits, driven particularly by term deposits which offer more favourable returns.",
+ },
+ {
+  id:140,
+  Image:news24,
+  heading:"Niger ambassador to U.S. warns coup could destabilise region",
+  description:"d during a demonstration on independence day in Niamey on August 3, 2023.  | Photo Credit: AFPNiger's junta must come to reason and return power to ousted President Mohamed Bazoum before the country and the wider region collapse, Niamey's ambassador to Washington said Thursday.If Niger collapses, the entire Sahel will collapse, will be destabilised Ambassador Kiari Liman-Tinguiri told AFP in an interview on Niger's independence day, as the future of Western economic and security aid hang in the balance for the landlocked West African country facing multiple conflicts with violent extremists.The junta should come to reason, realise that this affair cannot succeed, and prevent useless, inevitable suffering for our people and hand back powersaid Liman-Tinguiri, who remains a recognised diplomat in Washington and considers himself a representative of the legitimate President Bazoum, detained by his guards since late last month.",
+ },
 
 ]);
 

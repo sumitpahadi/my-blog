@@ -1,10 +1,8 @@
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
-
 
 /* Default styles */
 .active {
@@ -50,13 +48,13 @@ nav .title {
   margin: 1rem;
   font-weight: bold;
   text-decoration: none;
-  color: #000; 
+  color: #000;
 }
 
 nav ul {
   display: flex;
 }
-.hr{
+.hr {
   display: none;
 }
 
@@ -98,111 +96,106 @@ nav .menu span {
   border-radius: 0.2rem;
 }
 
-
-
-
-
 /* ------------------------------description ------------------------------ */
 
-
-.unique-image{
+.unique-image {
   display: flex;
   justify-content: center;
- 
-
 }
 
-.child{
-  
+.child {
   width: 400px;
 }
-.child img{
+.child img {
   width: 100%;
 }
 
-
 /* -------------------------description component ------------------- */
 
-.unique-image{
-  max-width: 500px;
-  min-width: 300px;
-  margin: auto;
-  height: auto;
-  
-}
-
-.child-of-des{
- 
+.like-share {
   display: flex;
   flex-direction: column;
-  
-  
 
- 
+  width: 35%;
+  justify-content: center;
+  align-items: center;
+}
+.like-heading {
+  font-size: xx-large;
+}
+.share {
+  font-size: xx-large;
+}
+
+.unique-image {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.child-of-des {
+  display: flex;
+  max-width: 500px;
+  min-width: 300px;
+  flex-direction: column;
 }
 .child-of-des h1 {
   margin: auto;
 }
 
-
-.header-for-img{
+.header-for-img {
   display: flex;
-  width: 500px;
+
+  max-width: 500px;
+  min-width: 300px;
   justify-content: space-between;
- 
+
   align-items: center;
   height: 110px;
 }
 
-.mypic{
+.mypic {
   display: flex;
- 
+
   height: 55px;
   align-items: center;
-  
 }
-.mypic span{
- 
+.mypic span {
   font-size: 67px;
 }
 
- .des p{
- 
+.des p {
   font-size: 22px;
   font-weight: 600;
   padding: 10px;
-
 }
 
-
-.movieimg{
+.movieimg {
   width: 90%;
   margin: auto;
 }
 
-
-
-
 .like {
   display: flex;
   margin-top: 30px;
-
-
-
 }
-.like span{
+.like span {
   font-size: 40px;
 }
 
-
-.like p{
-  
+.like p {
   font-size: 30px;
- 
-
 }
 
+.header-for-img1 {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
 
+.siren-heading h1 {
+  padding: 40px;
+  font-weight: 400;
+}
 @media (max-width: 900px) {
   .hr {
     display: flex;
@@ -210,37 +203,42 @@ nav .menu span {
     min-width: 200px; /* Set a minimum width of 200px */
     max-width: 500px; /* Set a maximum width of 500px */
   }
+  .like-share{
+    display: none;
+  }
+
+  .unique-image {
+    display: flex;
+    justify-content: c;
+  }
   
 
-  
+
+
   nav .menu {
     display: flex;
   }
- nav .menu span {
-  height: 0.4rem;
-  width: 100%;
-  background-color: black;
-  border-radius: 0.2rem;
-}
-.heading1 {
-  display: flex;
-  margin: 10px;
-}
-.inline1{
-  transform: rotate(-90deg);
-  margin-top: 17px;
-}
-.inline2 {
-  transform: translate(0px, 21px);
-  
-}
+  nav .menu span {
+    height: 0.4rem;
+    width: 100%;
+    background-color: black;
+    border-radius: 0.2rem;
+  }
+  .heading1 {
+    display: flex;
+    margin: 10px;
+  }
+  .inline1 {
+    transform: rotate(-90deg);
+    margin-top: 17px;
+  }
+  .inline2 {
+    transform: translate(0px, 21px);
+  }
 
-nav ul li{
-  margin: -2px;
-}
-
-
-
+  nav ul li {
+    margin: -2px;
+  }
 
   .heading {
     display: none;
@@ -284,7 +282,5 @@ nav ul li{
   nav ul li a {
     margin: 0.2rem 0.5rem;
     color: #000;
-    
   }
 }
-

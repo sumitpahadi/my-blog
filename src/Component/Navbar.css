@@ -50,7 +50,7 @@ nav .title {
   margin: 1rem;
   font-weight: bold;
   text-decoration: none;
-  color: #000; /* Black text color */
+  color: #000; 
 }
 
 nav ul {
@@ -121,10 +121,86 @@ nav .menu span {
 }
 
 
+/* -------------------------description component ------------------- */
+
+.unique-image{
+  max-width: 500px;
+  min-width: 300px;
+  margin: auto;
+  height: auto;
+  
+}
+
+.child-of-des{
+ 
+  display: flex;
+  flex-direction: column;
+  
+  
+
+ 
+}
+.child-of-des h1 {
+  margin: auto;
+}
+
+
+.header-for-img{
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+ 
+  align-items: center;
+  height: 110px;
+}
+
+.mypic{
+  display: flex;
+ 
+  height: 55px;
+  align-items: center;
+  
+}
+.mypic span{
+ 
+  font-size: 67px;
+}
+
+ .des p{
+ 
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px;
+
+}
+
+
+.movieimg{
+  width: 90%;
+  margin: auto;
+}
 
 
 
 
+.like {
+  display: flex;
+  margin-top: 30px;
+
+
+
+}
+.like span{
+  font-size: 40px;
+}
+
+
+.like p{
+  
+  font-size: 30px;
+ 
+
+}
 
 
 @media (max-width: 900px) {

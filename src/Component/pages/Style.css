@@ -4,7 +4,7 @@
 .top-container {
   display: grid;
   margin-top: 40px;
-  grid-template-columns: 600px 300px; /* Updated: Use 1fr instead of pixel values */
+  grid-template-columns: 750px 300px; /* Updated: Use 1fr instead of pixel values */
  
   justify-content: center;
   gap: 10px;

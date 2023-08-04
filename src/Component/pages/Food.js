@@ -53,7 +53,7 @@ export const Food = () => {
         <div className="bollywood-firstinner-container">
           <div className="bollywood-content">
             {bollywooddata
-              .filter((item) => item.id >= 100 && item.id <110)
+              .filter((item) => item.id >= 100 && item.id <108)
               .map((data, index) => {
                 return (
                   <>
@@ -64,7 +64,7 @@ export const Food = () => {
                       <div className="title">{data.heading}</div>
 
                       <div className="description">
-                        {truncateDescription(data.description, 8)}
+                        {truncateDescription(data.description, 0)}
                       </div>
                     </div>
                     <hr />
@@ -80,9 +80,42 @@ export const Food = () => {
             </div>
           </div>
         </div>
+        <div className="bollywood-secondinner-container">
+          <div className="bollywood-inner-content">
+            <div className="post">Top Post</div>
+            {bollywooddata
+              .filter((item) => item.id >= 108 && item.id <=113)
+              .map((data, index) => {
+                const count = index + 1;
+                return (
+                  <>
+                    <div className="child" key={index}>
+                      <Link to={"/detaildescription/" + data.id}>
+                        <img src={data.Image} alt="click here" />
+                      </Link>
+                      <div className="title">{data.heading}</div>
+
+                      <div className="description">
+                        {truncateDescription(data.description, 0)}
+                      </div>
+                      <div className="count">{count}</div>
+                    </div>
+
+                    <hr />
+                  </>
+                );
+              })}
+            <div className="advertisement">
+              <p>advertisement</p>
+            </div>
+          </div>
+        </div>
+        
 
         
       </div>
+
+
     </>
   );
 };

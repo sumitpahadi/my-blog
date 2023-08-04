@@ -125,6 +125,40 @@ import shoulder2 from "../images/shoulder2.jpg"
 
 
 
+// ------------------------------------food data----------------------------------------
+
+
+import jalebi from "../images/jalebi.jpg"
+import  gujiya from "../images/jugiya.jpg"
+import sonpapdi from "../images/sonepadi.jpg"
+import samosa from "../images/samosa.jpg"
+import rasgulla from "../images/rasgulla.jpg"
+import pakora from "../images/pakorra.jpg"
+import gulabjamun from "../images/gulabjamun.jpg"
+import frenchpries from "../images/frenchpriesnews.webp"
+
+
+import anar from "../images/anarnews.webp"
+import burgernew from "../images/burgernews.webp"
+import dosaviralnews from "../images/dosaviralnews.webp"
+import pries from "../images/frenchpriesnews.webp"
+import mango from "../images/mangonews.webp"
+import massordalnew from "../images/masoor dal new.webp"
+import paratha_oil_nes from "../images/paratha_oil_nes.jpg"
+import ricenews from "../images/ricenews.webp"
+import checnken from "../images/checkinnews.webp"
+import cookie from "../images/cookie.webp"
+import nimbupani from "../images/nimbupaninews.webp"
+import milk from "../images/masalmilknew.webp"
+import dahi from "../images/dahihoneynews.webp"
+import stringmeggi from "../images/stingmaggienew.jpg"
+
+
+
+
+
+
+
 
 
 
@@ -688,135 +722,136 @@ description:"Sustainable technology, also known as green technology,refers to in
   },
   {
     id:92,
-    Image:"https://img.freepik.com/free-photo/vertical-shot-traditional-indian-paneer-butter-masala-cheese-cottage-curry-black-surface_181624-32001.jpg?w=740&t=st=1691047601~exp=1691048201~hmac=b76015509610eeeab6f6d5a77ae6c60610cfda86e06501d5868565a136cc9e3d",
-    heading:"",
-    description:"",
+    Image:jalebi,
+     heading:"Jalebi",
+    description:"Jalebi is a popular sweet dish in South Asia, particularly in India, Pakistan, Nepal, and Bangladesh. It is a deep-fried dessert made from a fermented batter of all-purpose flour, water, and yogurt, creating a distinctively tangy flavor. After frying until crispy and golden, the jalebis are soaked in a sugar syrup, which adds sweetness and moisture to the dish.The unique shape of jalebi is what sets it apart. The batter is poured in a circular motion directly into hot oil, resulting in spiral-shaped, pretzel-like delicacies. The syrup infuses the jalebis with its sweetness, making them irresistibly delicious.",
   },
   {
     id:93,
-    Image:"https://img.freepik.com/free-photo/fried-spring-rolls-cutting-board_1150-17010.jpg?w=1060&t=st=1691048435~exp=1691049035~hmac=3d8547e0fc02d587ab0b3c286487d3f976bc71aab8d1ed5ab0d8494d9440397d",
-    heading:"",
-    description:"",
+    Image:gujiya,
+    heading:"Gujiya",
+    description:"Gujiya is a delightful Indian dessert that is commonly made and enjoyed during festivals, especially during Holi and Diwali. It is a deep-fried pastry filled with a sweet mixture of grated and roasted coconut, khoya (reduced milk solids), dried fruits like chopped almonds, cashews, and raisins, along with a touch of aromatic spices like cardamom and nutmeg.To make gujiyas, a special dough is prepared using all-purpose flour, ghee (clarified butter), and water. The dough is then rolled out into small circles, and the sweet filling is placed in the center. The edges of the circle are folded over to create a crescent shape, and the edges are sealed by pressing or crimping with a fork, giving gujiya its distinctive appearance.",
   },
   {
     id:94,
-    Image:"https://img.freepik.com/premium-photo/pot-chicken-curry-with-yellow-plate-food-black-background_854441-41.jpg?w=360",
-    heading:"",
-    description:"",
+    Image:sonpapdi,
+    heading:"Sonpapdi",
+    description:"Sonpapdi, also known as Soan Papdi or Sohan Papdi, is a popular Indian sweet confection. It is made from simple ingredients, mainly sugar, gram flour (besan), ghee (clarified butter), and cardamom powder. The name sonpapdi is derived from the words son (gold in Hindi) and papdi (a thin, crisp wafer-like snack), indicating its delicious and delicate nature.The process of making sonpapdi involves first roasting the besan in ghee until it turns golden brown and emits a nutty aroma. Then, a sugar syrup is prepared separately by boiling sugar and water together until it reaches a specific consistency. The roasted besan is mixed into the hot sugar syrup, and cardamom powder is added to enhance the flavor. The mixture is continuously stirred and spread out on a flat surface, where it is rolled and shaped into thin layers.",
   },
   {
     id:95,
-    Image:"https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill_2829-18813.jpg?w=1060&t=st=1691048107~exp=1691048707~hmac=78250bd5288575b5d635440b203842b886dfc3070dd8b8210d4b58fc2b9e4dc1",
-    heading:"",
-    description:"",
+    Image:samosa,
+    heading:"Samosa",
+    description:"Samosa is a savory and popular Indian snack that has gained worldwide recognition for its delicious taste and unique triangular shape. It is believed to have originated in Central Asia and was introduced to the Indian subcontinent by traders and merchants. Today, it is an integral part of Indian cuisine and is enjoyed across various regions and cultures.The classic samosa is made by stuffing a crisp, flaky pastry shell with a savory filling. The outer shell, known as the dough, is typically made from all-purpose flour, water, and a bit of oil or ghee. The dough is kneaded, rolled out into thin sheets, and then cut into small circles.",
   },
   {
     id:96,
-    Image:"https://img.freepik.com/premium-photo/indian-hindu-veg-thali-food-platter-selective-focus_466689-36051.jpg?w=1060",
-    heading:"",
-    description:"",
+    Image:rasgulla,
+    heading:"Rasgulla",
+    description:"Rasgulla is a popular and traditional sweet dessert in Indian cuisine, particularly in the states of West Bengal and Odisha. It is a spongy, soft, and juicy cheese dumpling soaked in a light sugar syrup flavored with cardamom or rose water.The main ingredient in rasgulla is chhena, a fresh, unripened cheese made from cow's or buffalo's milk. To prepare rasgulla, milk is first curdled by adding a small amount of acidic ingredient (such as lemon juice or vinegar) to separate the curds from the whey. The curds are then collected, drained, and pressed to remove excess moisture, resulting in a crumbly cheese known as chhena.",
   },
   {
     id:97,
-    Image:"https://img.freepik.com/premium-photo/indian-hindu-veg-thali-food-platter-selective-focus_466689-36051.jpg?w=1060",
-    heading:"",
-    description:"",
+    Image:pakora,
+    heading:"Pakora",
+    description:"Pakora, also known as pakoda, is a popular and savory Indian snack that is enjoyed across the country. It is a deep-fried fritter made from various ingredients, most commonly gram flour (besan), vegetables, or sometimes meat.To make pakoras, a batter is prepared by mixing gram flour with water and various spices such as cumin, coriander, chili powder, turmeric, and salt. The batter should have a smooth, thick consistency to coat the main ingredient properly.",
   },
   {
     id:98,
-    Image:"https://img.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg?w=740&t=st=1691048120~exp=1691048720~hmac=fb4d111e52d7c0288ee5787cc44abb51126497a023d39531e9f7f43b9c76536c",
-    heading:"",
-    description:"",
+    Image:gulabjamun,
+    heading:"Gulab Jamun",
+    description:"Gulab Jamun is one of the most loved and iconic desserts in Indian cuisine. It is a soft and spongy milk-solid-based sweet, soaked in a fragrant sugar syrup infused with rose water or cardamom.The main ingredients used to make gulab jamun are khoya (also known as mawa), which is dried milk solids, and a small amount of all-purpose flour or semolina. Sometimes, milk powder is used as a substitute for khoya. The khoya or milk powder is mixed with a small amount of flour to bind the mixture, and then a leavening agent like baking powder is added to make the dough light and fluffy.",
   },
   {
     id:99,
-    Image:"https://img.freepik.com/free-photo/top-view-delicious-noodles-concept_23-2148773774.jpg?w=1060&t=st=1691048159~exp=1691048759~hmac=f26b141241cd71f990e3decfe3df2879d80ed47c9ba2cce51575a9ed4a29e069",
+    Image:frenchpries,
     heading:"",
-    description:"",
+    description:"French fries, also known as fries or chips in some regions, are a popular and beloved dish worldwide. Despite their name, they are not actually French in origin; instead, they are believed to have originated in Belgium.French fries are made from sliced potatoes that are deep-fried until they turn golden brown and become crispy on the outside. The inside remains soft and fluffy. The potatoes are typically cut into long, thin strips, but they can also be cut into thicker wedges or shoestring-like shapes, depending on personal preferences.",
   },
   {
     id:100,
-    Image:"https://img.freepik.com/premium-photo/rava-upma-uppuma-south-indian-breakfast-served-bowl-selective-focus_466689-53765.jpg?w=1060",
-    heading:"",
-    description:"",
+    Image:stringmeggi,
+    heading:"Meet 'Sting Maggi' - A Bizarre Culinary Fusion Taking The Internet By Storm",
+     description:"Maggi holds a special place in the hearts of all Indians, finding its way into every kitchen across the country. However, in recent times, this humble snack has become the subject of some peculiar experiments. Some dared to add whisky, while others ventured into mutton-infused variations, and a few even took the bold step of filling ice cream cones with Maggi. And now, there's a new addition to this trend - Sting Maggi. Yes, you read that right. The energy drink had joined forces with Maggi in this surprising experiment. In an Instagram video that went viral, a street vendor can be seen giving Maggi this truly unique twist.The process began with him pouring the carbonated energy drink, Sting, into a hot pan. Next, he broke the Maggi noodles and added them to the pan. A few vegetables were tossed in, followed by some masala and a generous spoonful of ghee for added flavour. As the drink evaporated, the noodles cooked. The end result was a striking red-coloured Maggi dish, ready to be served."
+
   },
   {
     id:101,
-    Image:"https://img.freepik.com/premium-photo/rava-upma-uppuma-south-indian-breakfast-served-bowl-selective-focus_466689-53765.jpg?w=1060",
-    heading:"",
-    description:"",
+    Image:anar,
+    heading:"YouTuber Orders Pomegranate Online, Says It Tasted Like 'Nail Polish'",
+    description:"Ordering groceries and food online has made our life much easier. We now place orders for our necessities through apps and receive them instantly in a matter of minutes. Convenience is a priority for customers as they seek to order instant meals and cut fruits to make meal prep quicker and more convenient. While the debate is still on about the health quotient of cut fruits, a YouTuber recently shared his experience of ordering shelled pomegranate online. He said that the fruit was quite bad in taste and reminded him of nail polish. Take a look at his post here.The picture of the shelled pomegranate was shared on Instagram by user Samdish Bhatia. In a span of 24 hours, it has received over 5.5k likes and hundreds of comments. In the post, Bhatia narrated his ordeal with the packet of shelled pomegranate he ordered online through the grocery app Swiggy Instamart. I don't say it lightly. As soon as I took a spoonful and put it in my mouth, I could smell and taste something familiar. It was... wait for it... N..a..il polish, he wrote in his post.",
   },
   {
     id:102,
-    Image:"https://img.freepik.com/premium-photo/rava-upma-uppuma-south-indian-breakfast-served-bowl-selective-focus_466689-53765.jpg?w=1060",
-    heading:"",
-    description:"",
+    Image:burgernew,
+    heading:"Steve Harvey Found His Burger Lookalike. Don’t Believe Us? Check This Viral Post",
+    description:"Burgers, the unanimous fast-food favourite, hold a special place in almost every foodie's heart. Recently, among the food trends that have taken the internet by storm, one viral post features the humble burger as well. A particular burger post has set Twitter on fire for a very bizarre reason. The burger, the internet claims, bears a striking resemblance to none other than beloved comedian, Steve Harvey. Yes, you read that right. This burger's uncanny resemblance to the international personality has left Twitter buzzing with amusement and curiosity. In the viral tweet, a user shared a picture of her burger, and it immediately caught everyone's attention. Between the two buns sat a juicy patty, topped with big, juicy slices of raw onions. The resemblance was unreal—it looked just like Steve Harvey's infectious smile; the user felt. Amused by this uncanny similarity, she wondered in the caption why she was given such generous onion slices, while playfully declaring My burger looks like Steve Harvey!",
   },
   {
     id:103,
-    Image:"https://img.freepik.com/premium-photo/rava-upma-uppuma-south-indian-breakfast-served-bowl-selective-focus_466689-53765.jpg?w=1060",
-    heading:"",
-    description:"",
+    Image:dosaviralnews,
+    heading:"Viral Video: Finish This Six-Foot-Long Dosa All By Yourself And Win Rs. 11,000",
+    description:"Dosa has turned out to be one of our favourite South Indian treats. A versatile dish, it can be customised in an endless number of ways and can be enjoyed for practically any meal of the day. Whether you savour it for breakfast or use it to fill your tummy for lunch - a dosa is ideal for every situation. However, what is your maximum capacity of eating dosas? Can you eat one in a sitting or can you go beyond? A new food challenge involving dosa seeks competitors to finish a six-foot-long dosa all by themselves and win Rs 11,000 as a prize. The video of the dosa challenge was posted by the popular blogger duo Vaani and Saavi, who go by the handle @pestolicious. It has received over 5.7 million views and 383k likes since the time it was posted. Tag someone who can finish this, they wrote in the caption of the video. The video was shot at Dosa Factory - a popular dosa restaurant in Connaught Place, New Delhi.",
   },
   {
     id:104,
-    Image:"https://img.freepik.com/free-photo/high-angle-delicious-pita_23-2148734733.jpg?w=1060&t=st=1691048290~exp=1691048890~hmac=e73ea452f6de5ca5dafafa9613827533546c780ec0dd7746b4b7069438bf1759",
-    heading:"",
-    description:"",
+    Image:pries,
+    heading:"French Fries In The Shape Of Small Spoons Have Left The Internet Impressed",
+    description:"No matter which dish we are having, a side of French fries can make it taste even more delicious. Whether it's a grilled sizzler or a scrumptious burger, fries can go a long way in improving the taste of our favourite dishes. Pairing French fries with dips or sauces can enhance their taste to a whole new level! Among all our favourite dips, the classic ketchup is the one we feel goes best with French fries. And now, a new way of scooping in more ketchup with each French fry has piqued our curiousity. A Twitter user shared a picture of interesting spoon-shaped fries that seemed to be a much-needed innovation. Take a look: The photo was shared by user @TrungTPhan on Twitter. The perfect product-market fit, he wrote in the caption. The post has received over 435k views and hundreds of comments and likes. In the click, we could see how the shape of the usual French fries had been transformed and made into a little spoon. Thus, one end of the French fries could be used to scoop out extra ketchup, mayonnaise or any other dip of choice. Thus, you would not need to take extra fries or dip them a second time",
   },
   {
     id:105,
-    Image:"https://img.freepik.com/free-photo/delicious-macarons-arrangement_23-2150684126.jpg?w=1060&t=st=1691048319~exp=1691048919~hmac=e95b961cfa1e8b558eab81cd2b5dc483e6b2141c032bcdf104dddd3852eba500",
-    heading:"",
-    description:"",
+    Image:mango,
+    heading:"Street Vendor Preparing Mango Juice In Unhygienic Way Divides Internet",
+    description:"Summer comes with a variety of sticky, sweet and hydrating fruits. From watermelons to mangoes, we love to savour all these yummy treats in every form - be it desserts, smoothies or shakes. However, have you ever wondered what goes into the making of your favourite mango shake? Recently, a video of a street food vendor making mango juice in his cart has left internet users divided. The clip was shared on Instagram reels by digital creator Wajih Ansari who claimed that the video was the 'most unhygienic' mango juice he had ever seen. Take a look:Most unhygienic mango juice, he wrote in the caption of the clip. The video has now received over 3.5 million views and 55k likes in a span of just 48 hours. In the video, we could see the making of the mango juice. First, a crate of mangoes was sifted through for the juiciest mangoes. Then, the mangoes were peeled and cut into small pieces. A swarm of flies was hovering over the box in which the mangoes were kept. Then, the mangoes were transferred to a mixer grinder where the juice was blended. Crushed ice was added to the glass of mango juice which was served to customers",
   },
   {
     id:106,
-    Image:"https://img.freepik.com/free-photo/delicious-macarons-arrangement_23-2150684126.jpg?w=1060&t=st=1691048319~exp=1691048919~hmac=e95b961cfa1e8b558eab81cd2b5dc483e6b2141c032bcdf104dddd3852eba500",
-    heading:"",
-    description:"",
+    Image:massordalnew,
+    heading:"Masoor Dal For Weight Loss: 5 Easy Recipes That Are Delicious Too",
+    description:"How to follow a weight loss diet on a budget? The answer is by choosing locally available simple foods and cooking them in healthy ways. Many Indian dietary staples can actually work wonders for weight loss. Lentils are one such food category. Many of us eat dal in some form nearly every day. If you want to lose weight, you should continue doing so. All lentils are generally considered nutritious, but today we're going to focus on masoor dal or red lentils. Find out how and why you should include this common dal in your weight loss diet:Masoor dal can be used to make different types of dishes, including traditional dal preparations, snacks, lentil salads, chaats, dal soups, and much more. When you're on a weight loss diet, ensure you control the use of oil and also include other nutrient-rich ingredients. Stay away from any deep-fried dishes. Combining the goodness of masoor dal with fresh veggies is always a great idea. Get started with the recipes below.",
   },
   {
     id:107,
-    Image:"https://img.freepik.com/free-photo/delicious-macarons-arrangement_23-2150684126.jpg?w=1060&t=st=1691048319~exp=1691048919~hmac=e95b961cfa1e8b558eab81cd2b5dc483e6b2141c032bcdf104dddd3852eba500",
-    heading:"",
-    description:"",
+    Image:paratha_oil_nes,
+    heading:"Street Vendor Makes Paratha Doused In Excessive Oil - Heart Attack, Says Internet",
+    description:"There is something about street food which is so unmissable. Whether it is crispy sev puri or a hearty aloo tikki - we can't help dig into plate after plate of these treats. In the northern areas of the country, paratha is also a popular dish that is available on the street-side stalls. Vendors often serve parathas with chole, dal or as it is. Recently, however, the video of the making of a paratha by a street vendor has left the internet in shock. The reason was the copious quantity of oil used in the video. Take a look:The video was shared on Instagram by user Gurwinder Singh Maan, who runs a travel and food blog by the name of @gsfoodtravels. The clip of the paratha has raked in over 1.9 million views and 28.7k likes. Punjab ka healthy paratha, he wrote in the caption of the post. In the clip, we could see a half-cooked paratha on an iron griddle or tawa. As the paratha started to brown, the street vendor poured oil onto it from a huge tin canister. The amount of oil used was quite excessive and unnecessary. Then, he flipped over the paratha and cooked it from the other side, draining the excessive oil",
   },
   {
     id:108,
-    Image:"https://img.freepik.com/premium-photo/kozhukatta-pidi-is-steamed-snack-food-from-kerala-rice-flour-with-finger-impressions_466689-87165.jpg?w=1060",
-    heading:"",
-    description:"",
+    Image:ricenews,
+    heading:"5 Mouthwatering Rice Flour Breakfasts That'll Make You Jump Out Of Bed",
+    description:"Breakfast kick-starts your day and sets the rhythm for the hours ahead. But what if we told you that there's a secret ingredient that can match up with your morning routine and give you quick dishes without asking you to put in much time and effort? Rice flour is one versatile food that can transform your breakfast spread into a delightful feast. From crispy dosas to fluffy pancakes, let's explore five instant rice flour recipes that'll have you leaping out of bed with a hungry heart.Imagine waking up to a breakfast spread that is made instantly. So, the next time you find yourself yearning for a breakfast that's quick, delightful, and delicious, turn to the magic of instant rice flour.",
   },
   {
     id:109,
-    Image:"https://img.freepik.com/premium-photo/kozhukatta-pidi-is-steamed-snack-food-from-kerala-rice-flour-with-finger-impressions_466689-87165.jpg?w=1060",
-    heading:"",
-    description:"",
+    Image:checnken,
+    heading:"Chicken 65 Ranked Among 10 Best Fried Chicken Dishes In The World",
+    description:"Chicken meals are a sure shot route to a non-vegetarian's heart. And when it is about fried chicken, the success rate is quite high. What's better than a crispy crust that cracks on a bite and then gives way to flavourful juicy flesh? Crispy fried chicken is popular across the world, and every region has its own way of preparing this indulgence. TasteAtlas, a popular food guide, recently released its list of the “10 Best Fried Chicken Dishes” in the world. Guess who bagged the top spot in this prestigious list? It is Indonesia with its decadent ayam goreng, which has scored 4.6 stars out of 5. Indonesia surely has some amazing fried chicken dishes as the country also occupied the sixth position on the list. But hold on, there's a delicacy from India as well! The much-loved Chicken 65 has made the country proud. Garnering 4.3 stars, this dish was ranked 10th on the list by TasteAtlas.",
   },
   {
     id:110,
-    Image:"https://img.freepik.com/free-photo/fried-spring-rolls-cutting-board_1150-17010.jpg?w=1060&t=st=1691048435~exp=1691049035~hmac=3d8547e0fc02d587ab0b3c286487d3f976bc71aab8d1ed5ab0d8494d9440397d",
-    heading:"",
-    description:"",
+    Image:dahi,
+    heading:"Dahi + Honey = Glowing Skin! This Classic Combination Is A Must-Try",
+    description:"Have you been dealing with pimples, acne and other skin problems for long? Are you planning to visit a dermatologist for a solution? But first things first, have you checked the creams you have been applying every day? At times, the chemicals in these expensive moisturisers react negatively to your skin, making it dull and bumpy. And if you have a sedentary lifestyle, it just adds to the concern. This is where food comes to the rescue. By now, you surely know that a healthy diet impacts your skin significantly - it helps the skin breathe, detox and glow naturally. And the best part is: you don't need to go miles or shell out a lot to pick those food ingredients. They are available right in front of you - dahi (curd) and honey!How Dahi And Honey Help Your Skin Glow:Dahi is cold in nature and honey contains heating properties, making us question if they make 'virudh anna' as per Ayurveda. For the unversed, 'virudh anna' is the food combination that has opposite effects, disrupting the balance in our body. But interestingly, curd and honey don't fall under 'virudh anna' category, with multiple studies backing the benefits of this combination.",
   },
   {
     id:111,
-    Image:"https://img.freepik.com/free-photo/baked-chicken-wings-asian-style-tomatoes-sauce-plate_2829-10657.jpg?w=1060&t=st=1691048474~exp=1691049074~hmac=11c33d596a5d8222a28abbcc9b3666472704d7bcc873ccc0e67322bd1c244d8b",
-    heading:"",
-    description:"",
+    Image:milk,
+    heading:"Move Over Expensive Creams! 4 Reasons Why Masala Milk Is Your Skin's New BFF",
+    description:"Healthy and glowing skin is a result of consistent efforts. You must already know that your diet has a significant impact on your skin. You must have heard about the importance of detox drinks for your skin health. But before you start relying on fancy and expensive options, take others into consideration too. A number of simple, homemade drinks can also help with your beauty goals. And one of the best choices is good old Masala Milk. Today, we're going to briefly discuss why and how you should be consuming this wholesome drink.Masala Milk or Masala Doodh is a traditional beverage made by mixing a blend of nuts and spices with milk. It is often lightly flavoured with saffron and has a sweet taste. It may be consumed hot or cold. This drink is packed with nutrients and has wide-ranging health benefits. Today, find out why you should make it a part of your skincare diet.",
   },
   {
     id:112,
-    Image:"https://img.freepik.com/free-photo/baked-chicken-wings-asian-style-tomatoes-sauce-plate_2829-10657.jpg?w=1060&t=st=1691048474~exp=1691049074~hmac=11c33d596a5d8222a28abbcc9b3666472704d7bcc873ccc0e67322bd1c244d8b",
-    heading:"",
-    description:"",
+    Image:nimbupani,
+    heading:"Start Your Morning Right! 5 Nourishing Drinks For Healthy And Glowing Skin",
+    description:"Isn't it disappointing when you find your skin looking dull even after following a proper skincare routine? For most of us, skin care means investing in fancy creams and ointments. They may be helpful, but if you only focus on using them, you may not get permanent solutions. To achieve healthy and radiant skin, it's important to pay equal attention to the types of foods and drinks we consume on a daily basis. This is particularly true for mornings as this is the time when our skin needs the maximum amount of nourishment. Unfortunately, tea and coffee are the most consumed beverages in the morning. They may help awaken your senses, but what we don't realise is the amount of damage they cause to our skin. Instead, we should opt for healthier alternatives that help nourish our skin from within. Here are some drinks you should consider sipping in the morning:",
   },
   {
     id:113,
-    Image:"https://img.freepik.com/premium-photo/indian-hindu-veg-thali-food-platter-selective-focus_466689-36051.jpg?w=1060",
-    heading:"",
-    description:"",
+    Image:cookie,
+    heading:"Enjoy Cake Guilt-Free! 6 Easy Ways To Make It Healthier And Tastier",
+    description:"Are you tired of resisting your sweet cravings while on a diet? Are you craving cakes but worried about putting on extra calories? We understand that this can be quite challenging. Cakes are loaded with sugar and unhealthy fats, which can hinder our weight loss goals. But don't lose hope, as there are numerous ways in which you can enjoy cakes totally guilt-free! All you have to do is swap it for healthier ingredients. Your cake will taste just as good but will be a lot healthier. Isn't that something we all desire? Find below some helpful tips to up the nutrient quotient of your cakes:",
   },
 
 

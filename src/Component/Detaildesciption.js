@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
 import Contextapi from "./Contextapi/Contextapi";
 import { Link } from "react-router-dom";
+import logo from "../Component/images/Mask Group 16.png";
 
 import "./Navbar.css";
 
@@ -17,6 +18,8 @@ export const Detaildesciption = () => {
     const truncatedDescription = truncatedWords.join(" ");
     return truncatedDescription;
   }
+
+
   return (
     <>
       <div className="unique-image">
@@ -32,7 +35,7 @@ export const Detaildesciption = () => {
           <h1>{imageData.heading}</h1>
           <div className="header-for-img">
             <div className="mypic">
-              <span className="material-symbols-outlined">account_circle</span>
+              <img src={logo} alt="" />
             </div>
             <div className="names">
               <h5>Sumit rawat</h5>
@@ -40,10 +43,13 @@ export const Detaildesciption = () => {
             </div>
             <div>
               <div className="logo">
-                <span className="material-symbols-outlined">home</span>
-                <span className="material-symbols-outlined">settings</span>
-                <span className="material-symbols-outlined">star</span>
-                <span className="material-symbols-outlined">grade</span>
+                <i className="fa-brands fa-square-facebook fa-beat-fade fa-2xl"></i>
+                <i
+                  className="fa-brands fa-square-instagram insta fa-beat-fade fa-2xl"
+                
+                ></i>{" "}
+                <i className="fa-brands fa-square-twitter fa-beat-fade fa-2xl"></i>
+                <i className="fa-brands fa-youtube fa-beat-fade fa-2xl"></i>
               </div>
             </div>
           </div>
@@ -60,7 +66,7 @@ export const Detaildesciption = () => {
 
           <div className="header-for-img1">
             <div className="mypic">
-              <span className="material-symbols-outlined">account_circle</span>
+              <img src={logo} alt="" />
             </div>
             <div className="names">
               <h5>Written by</h5>

@@ -7,12 +7,33 @@
 
 /* Default styles */
 
+
+/* Default styles (light mode) */
+.heading,
+.heading1 {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.menu span {
+  background-color: #000000;
+  
+}
+
+ul li {
+  border-color: #000000;
+}
+
+
+
+
+
 nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff; /* White background color */
-  color: #000; /* Black text color */
+  background-color: #fff; 
+  color: #000; 
   position: sticky;
   top: 0;
 }
@@ -28,10 +49,13 @@ nav {
 
 .inline1 {
   transform: rotate(-90deg);
+ 
 }
 
 .inline2 {
   transform: translate(-29px, 21px);
+  font-size: 56px;
+ 
 }
 
 .heading {
@@ -195,15 +219,17 @@ nav .menu span {
  color:red;
 }
 .des p {
-  font-size: 22px;
-  font-weight: 550;
-  padding: 10px;
+  font-size: 21px;
+  font-weight: 600;
+  padding: 21px;
   font-family: Bogart-med;
 }
 
 .movieimg {
   width: 90%;
   margin: auto;
+  box-shadow: 2px 2px 21px 2px gray;
+  border-radius: 10px;
 }
 
 .like {
@@ -218,6 +244,7 @@ nav .menu span {
 
 .like p {
   font-size: 30px;
+  
 }
 
 .header-for-img1 {

@@ -151,7 +151,6 @@
 
 }
 
-
 .title{
   text-align: center;
   font-size: large;
@@ -170,6 +169,8 @@
 .imagedata img{
   height: 200px;
   width: 100%;
+  box-shadow: 2px 2px 21px 2px gray;
+  border-radius: 10px;
   
 }
 
@@ -214,6 +215,9 @@
 .bollywood-content .child img{
   float: left;
   margin-right: 5px;
+  box-shadow: 2px 2px 21px 2px gray;
+  border-radius: 10px;
+  
 
   
 }
@@ -257,6 +261,8 @@
 .bollywood-inner-content .child img{
   height: 105px;
   width: 114px;
+  box-shadow: 2px 2px 21px 2px gray;
+  border-radius: 10px;
 
 }
 

@@ -32,41 +32,50 @@ export const Navbar = () => {
           <span></span>
           <span></span>
         </div>
-        
 
         <ul className={menuOpen ? "open" : ""}>
           <li>
-            <hr  className="hr"/>
+            <hr className="hr" />
             <NavLink to="/" onClick={closeMenu}>
               Home
             </NavLink>
           </li>
-          <hr  className="hr"/>
+          <hr className="hr" />
 
           <li>
-            <NavLink to="/bollywood" onClick={closeMenu}>Bollywood</NavLink>
+            <NavLink to="/bollywood" onClick={closeMenu}>
+              Bollywood
+            </NavLink>
           </li>
-          <hr  className="hr"/>
+          <hr className="hr" />
 
           <li>
-            <NavLink to="/technology" onClick={closeMenu}>Technology</NavLink>
+            <NavLink to="/technology" onClick={closeMenu}>
+              Technology
+            </NavLink>
           </li>
-          <hr  className="hr"/>
+          <hr className="hr" />
 
           <li>
-            <NavLink to="/hollywood" onClick={closeMenu}>Hollywood</NavLink>
+            <NavLink to="/hollywood" onClick={closeMenu}>
+              Hollywood
+            </NavLink>
           </li>
-          <hr  className="hr"/>
+          <hr className="hr" />
 
           <li>
-            <NavLink to="/fitness" onClick={closeMenu}>Fitness</NavLink>
+            <NavLink to="/fitness" onClick={closeMenu}>
+              Fitness
+            </NavLink>
           </li>
-          <hr  className="hr"/>
+          <hr className="hr" />
 
           <li>
-            <NavLink to="/food" onClick={closeMenu}>Food</NavLink>
+            <NavLink to="/food" onClick={closeMenu}>
+              Food
+            </NavLink>
           </li>
-          <hr  className="hr"/>
+          <hr className="hr" />
         </ul>
       </nav>
       <hr />

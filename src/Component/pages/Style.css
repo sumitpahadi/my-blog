@@ -12,14 +12,20 @@
 }
 
 .first-container img{
+  box-shadow: 2px 2px 21px 2px gray;
+  border-radius: 10px;
   height: 515px;
   width: 100%;
 }
 .second-container img{
+  box-shadow: 2px 2px 21px 2px gray;
+  border-radius: 10px;
   height: 250px;
   width: 100% ;
 }
 .third-container img{
+  box-shadow: 2px 2px 21px 2px gray;
+  border-radius: 10px;
   height: 250px;
   width: 100%;
 }

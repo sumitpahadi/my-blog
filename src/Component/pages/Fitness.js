@@ -32,7 +32,7 @@ export const Fitness = () => {
             return (
               <div className="imagedata" key={index} >
                 <div className="child" >
-                  <Link to={"/detaildescription/" + data.id}>
+                  <Link to={"/detaildescription/" + data.id+"/"+data.catgory}>
                     <img src={data.Image} alt="click here" />
                   </Link>
                   <div className="title">{data.heading}</div>
@@ -56,9 +56,9 @@ export const Fitness = () => {
               .filter((item) => item.id >= 78 && item.id <87)
               .map((data, index) => {
                 return (
-                  <>
-                    <div className="child" key={index}>
-                      <Link to={"/detaildescription/" + data.id}>
+                  <div key={index}>
+                    <div className="child" >
+                      <Link to={"/detaildescription/" + data.id+"/"+data.catgory}>
                         <img src={data.Image} alt="click here" />
                       </Link>
                       <div className="title">{data.heading}</div>
@@ -68,7 +68,7 @@ export const Fitness = () => {
                       </div>
                     </div>
                     <hr />
-                  </>
+                  </div>
                 );
               })}
             <div className="load">
@@ -89,9 +89,9 @@ export const Fitness = () => {
               .map((data, index) => {
                 const count = index + 1;
                 return (
-                  <>
-                    <div className="child" key={index}>
-                      <Link to={"/detaildescription/" + data.id}>
+                  <div  key={index}>
+                    <div className="child">
+                      <Link to={"/detaildescription/" + data.id+"/"+data.catgory}>
                         <img src={data.Image} alt="click here" />
                       </Link>
                       <div className="title">{data.heading}</div>
@@ -103,7 +103,7 @@ export const Fitness = () => {
                     </div>
 
                     <hr />
-                  </>
+                  </div>
                 );
               })}
             <div className="advertisement">

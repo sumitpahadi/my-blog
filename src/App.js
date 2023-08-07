@@ -22,7 +22,8 @@ function App() {
         <Route path="/technology" element={<Technology />} />
         <Route path="/fitness" element={<Fitness />} />
         <Route path="/food" element={<Food />} />
-        <Route path="/detaildescription/:id" element={<Detaildesciption />} />
+        <Route path="/detaildescription/:id/:catgory" element={<Detaildesciption />} />
+
       </Routes>
     </div>
   );

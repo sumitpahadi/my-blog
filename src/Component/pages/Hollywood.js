@@ -31,7 +31,7 @@ export const Hollywood = () => {
             return (
               <div className="imagedata" key={index} >
                 <div className="child" >
-                  <Link to={"/detaildescription/" + data.id}>
+                  <Link to={"/detaildescription/" + data.id+"/"+data.catgory}>
                     <img src={data.Image} alt="click here" />
                   </Link>
                   <div className="title">{data.heading}</div>
@@ -57,7 +57,7 @@ export const Hollywood = () => {
                 return (
                   <>
                     <div className="child" key={index}>
-                      <Link to={"/detaildescription/" + data.id}>
+                      <Link to={"/detaildescription/" + data.id+"/"+data.catgory}>
                         <img src={data.Image} alt="click here" />
                       </Link>
                       <div className="title">{data.heading}</div>
@@ -90,7 +90,7 @@ export const Hollywood = () => {
                 return (
                   <>
                     <div className="child" key={index}>
-                      <Link to={"/detaildescription/" + data.id}>
+                      <Link to={"/detaildescription/" + data.id+"/"+data.catgory}>
                         <img src={data.Image} alt="click here" />
                       </Link>
                       <div className="title">{data.heading}</div>

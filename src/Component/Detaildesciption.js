@@ -7,7 +7,9 @@ import logo from "../Component/images/Mask Group 16.png";
 import "./Navbar.css";
 
 export const Detaildesciption = () => {
-  const { id } = useParams(); // Extract the ID from the URL
+  const { id, catgory } = useParams();
+  console.log(useParams())
+
   const bollywooddata = useContext(Contextapi);
 
   const imageData = bollywooddata.find((item) => item.id === parseInt(id));
@@ -24,10 +26,10 @@ export const Detaildesciption = () => {
       <div className="unique-image">
         <div className="like-share">
           <div className="like-heading">
-            <span class="material-symbols-outlined">thumb_up</span>Like
+            <span className="material-symbols-outlined">thumb_up</span>Like
           </div>
           <div className="share">
-            <span class="material-symbols-outlined">share</span>Share
+            <span className="material-symbols-outlined">share</span>Share
           </div>
         </div>
         <div className="child-of-des">
@@ -55,7 +57,7 @@ export const Detaildesciption = () => {
             <p>{imageData.description}</p>
           </div>
           <div className="like">
-            <span class="material-symbols-outlined">thumb_up</span>
+            <span className="material-symbols-outlined">thumb_up</span>
             <p>Like</p>
           </div>
           <hr />
@@ -81,32 +83,34 @@ export const Detaildesciption = () => {
 
       <div className="bollywood-data">
         {bollywooddata
-          .filter((item) => item.id >= 138 && item.id <= 140)
+          .filter((data) => data.id % 2 === 0 && data.id % 4 === 0 )
           .map((data, index) => {
-            return (
-              <div className="imagedata" key={index}>
-                <div className="child">
-                  <Link to={"/detaildescription/" + data.id}>
-                    <img src={data.Image} alt="click here" />
-                  </Link>
-                  <div className="title">{data.heading}</div>
-
-                  <div className="description">
-                    {truncateDescription(data.description, 0)}
+            if (data.catgory === catgory) {
+              console.log("data id is " + data.id);
+              return (
+                <div className="imagedata" key={index}>
+                  <div className="child">
+                    <Link to={"/detaildescription/" + data.id+"/"+data.catgory}>
+                      <img src={data.Image} alt="click here" />
+                    </Link>
+                    <div className="title">{data.heading}</div>
+                    <div className="description">
+                      {truncateDescription(data.description, 8)}
+                    </div>
+                  </div>
+                  <div className="logimage">
+                    <div className="mypic">
+                      <img src={logo} alt="" />
+                    </div>
+                    <div className="names">
+                      <h5>Written by</h5>
+                      <h5>Sumit rawat</h5>
+                      <h5>4 August 2023</h5>
+                    </div>
                   </div>
                 </div>
-                <div className="logimage">
-                  <div className="mypic">
-                    <img src={logo} alt="" />
-                  </div>
-                  <div className="names">
-                    <h5>Written by</h5>
-                    <h5>Sumit rawat</h5>
-                    <h5>4 August 2023</h5>
-                  </div>
-                </div>
-              </div>
-            );
+              );
+            }
           })}
       </div>
     </>

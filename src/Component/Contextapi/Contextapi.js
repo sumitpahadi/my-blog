@@ -1074,11 +1074,11 @@ description:"Sustainable technology, also known as green technology,refers to in
   },
    {
     id:126,
-    Image:"https://img.freepik.com/free-photo/vertical-shot-traditional-indian-paneer-butter-masala-cheese-cottage-curry-black-surface_181624-32001.jpg?w=740&t=st=1691047601~exp=1691048201~hmac=b76015509610eeeab6f6d5a77ae6c60610cfda86e06501d5868565a136cc9e3d",
-    heading:"",
-    catgory:"mix",
-    description:"",
-  },
+    Image:sonpapdi,
+    heading:"Sonpapdi",
+    catgory:"food",
+    description:"Sonpapdi, also known as Soan Papdi or Sohan Papdi, is a popular Indian sweet confection. It is made from simple ingredients, mainly sugar, gram flour (besan), ghee (clarified butter), and cardamom powder. The name sonpapdi is derived from the words son (gold in Hindi) and papdi (a thin, crisp wafer-like snack), indicating its delicious and delicate nature.The process of making sonpapdi involves first roasting the besan in ghee until it turns golden brown and emits a nutty aroma. Then, a sugar syrup is prepared separately by boiling sugar and water together until it reaches a specific consistency. The roasted besan is mixed into the hot sugar syrup, and cardamom powder is added to enhance the flavor. The mixture is continuously stirred and spread out on a flat surface, where it is rolled and shaped into thin layers.",
+   },
    {
     id:127,
     Image:chatgpt,

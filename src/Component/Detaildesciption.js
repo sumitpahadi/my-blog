@@ -8,7 +8,7 @@ import "./Navbar.css";
 
 export const Detaildesciption = () => {
   const { id, catgory } = useParams();
-  console.log(useParams())
+  console.log(useParams());
 
   const bollywooddata = useContext(Contextapi);
 
@@ -81,21 +81,23 @@ export const Detaildesciption = () => {
       </div>
       <hr />
 
-      <div className="bollywood-data">
+      <div className="bollywood-data1">
         {bollywooddata
-          .filter((data) => data.id % 2 === 0 && data.id % 4 === 0 )
+          .filter((data) => data.id % 2 === 0 && data.id % 4 === 0)
           .map((data, index) => {
             if (data.catgory === catgory) {
               console.log("data id is " + data.id);
               return (
                 <div className="imagedata" key={index}>
                   <div className="child">
-                    <Link to={"/detaildescription/" + data.id+"/"+data.catgory}>
+                    <Link
+                      to={"/detaildescription/" + data.id + "/" + data.catgory}
+                    >
                       <img src={data.Image} alt="click here" />
                     </Link>
                     <div className="title">{data.heading}</div>
                     <div className="description">
-                      {truncateDescription(data.description, 8)}
+                      {truncateDescription(data.description, 20)}
                     </div>
                   </div>
                   <div className="logimage">
@@ -110,7 +112,10 @@ export const Detaildesciption = () => {
                   </div>
                 </div>
               );
-            }
+              
+            } 
+              return null;
+            
           })}
       </div>
     </>

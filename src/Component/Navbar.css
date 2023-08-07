@@ -299,7 +299,7 @@ nav .menu span {
 }
 
 }
-@media (max-width: 600px) {
+@media (max-width: 813px) {
   .hr {
     display: flex;
     flex-grow: 1; /* This will make .hr take up all available space */

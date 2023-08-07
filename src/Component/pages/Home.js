@@ -64,8 +64,8 @@ export const Home = () => {
               .filter((item) => item.id >= 122 && item.id < 132)
               .map((data, index) => {
                 return (
-                  <>
-                    <div className="child" key={index}>
+                  <div key={index}>
+                    <div className="child" >
                       <Link to={"/detaildescription/" + data.id+"/"+data.catgory}>
                         <img src={data.Image} alt="click here" />
                       </Link>
@@ -76,7 +76,7 @@ export const Home = () => {
                       </div>
                     </div>
                     <hr />
-                  </>
+                  </div>
                 );
               })}
             <div className="load">
@@ -97,8 +97,8 @@ export const Home = () => {
               .map((data, index) => {
                 const count = index + 1;
                 return (
-                  <>
-                    <div className="child" key={index}>
+                  <div key={index}>
+                    <div className="child" >
                       <Link to={"/detaildescription/" + data.id+"/"+data.catgory}>
                         <img src={data.Image} alt="click here" />
                       </Link>
@@ -111,7 +111,7 @@ export const Home = () => {
                     </div>
 
                     <hr />
-                  </>
+                  </div>
                 );
               })}
             <div className="advertisement">

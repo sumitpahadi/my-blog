@@ -8,6 +8,7 @@ import Home from "./Component/pages/Home"
 import Fitness from "./Component/pages/Fitness";
 import Food from "./Component/pages/Food";
 import Detaildesciption from "./Component/Detaildesciption";
+import Footer from "./Component/Footer";
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
         <Route path="/detaildescription/:id/:catgory" element={<Detaildesciption />} />
 
       </Routes>
+      <Footer></Footer>
+      
     </div>
   );
 }

@@ -303,8 +303,7 @@ nav .menu span {
   .hr {
     display: flex;
     flex-grow: 1; /* This will make .hr take up all available space */
-    min-width: 200px; /* Set a minimum width of 200px */
-    max-width: 500px; /* Set a maximum width of 500px */
+    /* Set a maximum width of 500px */
   }
   
   .unique-image {

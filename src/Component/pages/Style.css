@@ -4,7 +4,7 @@
 .top-container {
   display: grid;
   margin-top: 40px;
-  grid-template-columns: 750px 300px; /* Updated: Use 1fr instead of pixel values */
+  grid-template-columns: 760px 310px; /* Updated: Use 1fr instead of pixel values */
  
   justify-content: center;
   gap: 10px;
@@ -195,7 +195,7 @@
   font-size: xx-large;
   font-weight: 600;
   text-decoration: underline;
-  margin-left: 170px;
+padding-left: 100px;
   margin-bottom: 50px;
 }
 
@@ -203,8 +203,9 @@
 .bollywood-first-container{
   display: flex;
   flex-wrap: wrap;
- justify-content: space-evenly;
-  gap: 20px;
+ justify-content: space-around;
+ padding: 50px;
+ 
 }
 
 
@@ -212,9 +213,10 @@
 
 } */
 .bollywood-content .child{
-  height: 131px;
+  height: 237px;
   max-width: 800px;
-  min-width: 300px;
+  min-width: 500px;
+
   margin-top: 20px;
 }
 
@@ -229,14 +231,13 @@
 }
 .bollywood-content .child .description{
   float: revert;
-  width: 279px;
-  
+  width: 496px;
 
   
 }
 .bollywood-content .child img{
-  height: 150px;
-    width: 150px;
+  height: 213px;
+  width: 304px;
 }
 
 .load{
@@ -257,9 +258,10 @@
 }
 
 .bollywood-inner-content .child{
-  height: 100px;
+  height: 199px;
   max-width: 1000px;
-  min-width: 300px;
+  min-width: 571px;
+  
   margin-top: 20px;
 
 }
@@ -274,7 +276,9 @@
 
 .bollywood-inner-content .child img{
   float: left;
-  margin-right: 10px;
+  height: 197px;
+  width: 258px;
+  margin-right: 14px;
   
 }
 .bollywood-inner-content .child .description{
@@ -282,11 +286,11 @@
   
 }
 .count{
-     float: right;
-    font-size: 60px;
-    color: rgb(0, 110, 255);
-    font-weight: 900;
-    transform: translateY(-22px);
+  float: right;
+  font-size: 60px;
+  color: rgb(0, 110, 255);
+  font-weight: 900;
+  transform: translateY(35px);
 }
 
 
@@ -301,15 +305,19 @@
   
   margin-top: 50px;
   display: flex;
-  align-items: center; 
-  justify-content: center; 
-  height: 100vh; 
-  border: 2px solid black;
-  width: 300px;
+  
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 570px;
 }
 
-.advertisement p {
-  font-size: larger;
+.advertisement video {
+  border-radius: 10px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* ------------------------footer------------------------ */
@@ -321,7 +329,7 @@
 
 
 
-@media screen and (min-width:620px) and (max-width:1027px){
+@media screen and (min-width:620px) and (max-width:1171px){
   .top-container {
     display: grid;
     margin-top: 40px;
@@ -344,6 +352,22 @@
   height: 150px;
   width: 100%;
 }
+
+
+.bollywood-first-container{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: flex-start;
+ padding: 50px;
+ 
+}
+
+.advertisement{
+  display: none;
+}
+
+
+
 
 
 }
@@ -395,14 +419,68 @@
     justify-content: center;
    
   
-  
-   
     grid-column: 1/2;
     grid-row: 3/4;
   }
   .advertisement{
     display: none;
   }
+  .bollywood-content .child{
+    height: 131px;
+    max-width: 800px;
+    min-width: 300px;
+    margin-top: 20px;
+  }
+  .bollywood-content .child .description{
+    float: revert;
+    width: 279px;
+    
+  
+    
+  }
+  .bollywood-content .child .description{
+    float: revert;
+    width: 279px;
+    
+  
+    
+  }
+  .bollywood-content .child img{
+    height: 150px;
+      width: 150px;
+  }
+
+
+
+  /* -------------------------for stories ------- */
+  .bollywood-inner-content .child{
+    height: 100px;
+    max-width: 1000px;
+    min-width: 300px;
+   
+  
+  }
+  .bollywood-inner-content .child img{
+    float: left;
+    
+    
+  }
+
+  .bollywood-inner-content .child img{
+    height: 105px;
+    width: 114px;
+   
+  
+  }
+
+
+  .count{
+  
+   transform: translateY(-22px);
+}
+
+
+
 
 
 }

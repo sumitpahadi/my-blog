@@ -1,12 +1,15 @@
-import Contextapi from "../Contextapi/Contextapi";
+
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "./Style.css";
-export const Home = () => {
-  const bollywooddata = useContext(Contextapi);
+import video from "../images/video.mp4"
+import Contextapi from "../Contextapi/Contextapi";
 
-  const Data = useContext(Contextapi);
-  console.log(Data);
+export const Home = () => {
+  
+  const apidata = useContext(Contextapi);
+
+console.log(apidata)
 
   function truncateDescription(description, numWords) {
     const words = description.split(" ");
@@ -15,32 +18,37 @@ export const Home = () => {
     return truncatedDescription;
   }
 
+  
   return (
     <>
-      <div className="top-container">
-        <div className="first-container">
-          <img src={Data[0].image1} alt="" />
-        </div>
+     {apidata[0] && (
+  <div className="top-container">
+    <div className="first-container">
+      <img src={apidata[0].image1} alt="" />
+    </div>
+    <div className="second-container">
+      <img src={apidata[0].image2} alt="" />
+    </div>
+    <div className="third-container">
+      <img src={apidata[0].image3} alt="" />
+    </div>
+  </div>
+)}
 
-        <div className="second-container">
-          <img src={Data[0].image2} alt="" />
-        </div>
-        <div className="third-container">
-          <img src={Data[0].image3} alt="" />
-        </div>
-      </div>
 
       <div className="boll-heading">
         <h1>The Latest</h1>
       </div>
       <div className="bollywood-data">
-        {bollywooddata
+        {apidata
           .filter((item) => item.id >= 114 && item.id < 122)
           .map((data, index) => {
             return (
               <div className="imagedata" key={index}>
                 <div className="child">
-                  <Link to={"/detaildescription/" + data.id+"/"+data.catgory}>
+                  <Link
+                    to={"/detaildescription/" + data.id + "/" + data.catgory}
+                  >
                     <img src={data.Image} alt="click here" />
                   </Link>
                   <div className="title">{data.heading}</div>
@@ -60,13 +68,17 @@ export const Home = () => {
       <div className="bollywood-first-container">
         <div className="bollywood-firstinner-container">
           <div className="bollywood-content">
-            {bollywooddata
-              .filter((item) => item.id >= 122 && item.id < 132)
+            {apidata
+              .filter((item) => item.id >= 122 && item.id < 131)
               .map((data, index) => {
                 return (
                   <div key={index}>
-                    <div className="child" >
-                      <Link to={"/detaildescription/" + data.id+"/"+data.catgory}>
+                    <div className="child">
+                      <Link
+                        to={
+                          "/detaildescription/" + data.id + "/" + data.catgory
+                        }
+                      >
                         <img src={data.Image} alt="click here" />
                       </Link>
                       <div className="title">{data.heading}</div>
@@ -79,33 +91,31 @@ export const Home = () => {
                   </div>
                 );
               })}
-            <div className="load">
-              {" "}
-              <span className="material-symbols-outlined">
-                keyboard_double_arrow_down
-              </span>
-              LOAD MORE{" "}
-            </div>
+          
           </div>
         </div>
 
         <div className="bollywood-secondinner-container">
           <div className="bollywood-inner-content">
             <div className="post">Top Post</div>
-            {bollywooddata
-              .filter((item) => item.id >= 132 && item.id <= 137)
+            {apidata
+              .filter((item) => item.id >= 132 && item.id <= 138)
               .map((data, index) => {
                 const count = index + 1;
                 return (
                   <div key={index}>
-                    <div className="child" >
-                      <Link to={"/detaildescription/" + data.id+"/"+data.catgory}>
+                    <div className="child">
+                      <Link
+                        to={
+                          "/detaildescription/" + data.id + "/" + data.catgory
+                        }
+                      >
                         <img src={data.Image} alt="click here" />
                       </Link>
                       <div className="title">{data.heading}</div>
 
                       <div className="description">
-                        {truncateDescription(data.description, 8)}
+                        {truncateDescription(data.description, 15)}
                       </div>
                       <div className="count">{count}</div>
                     </div>
@@ -115,7 +125,7 @@ export const Home = () => {
                 );
               })}
             <div className="advertisement">
-              <p>advertisement</p>
+            <video src={video}   muted loop autoPlay></video>
             </div>
           </div>
         </div>

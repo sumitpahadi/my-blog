@@ -1,12 +1,13 @@
 import React, { useContext } from "react";
-import Contextapi from "../Contextapi/Contextapi";
+
 import { Link } from "react-router-dom";
 
 import "./Style.css";
+import video from "../images/video.mp4";
+import Contextapi from "../Contextapi/Contextapi";
+
 function Technology() {
-
   const bollywooddata = useContext(Contextapi);
-
 
   function truncateDescription(description, numWords) {
     const words = description.split(" ");
@@ -22,12 +23,14 @@ function Technology() {
         </div>
         <div className="bollywood-data">
           {bollywooddata
-            .filter((item) => item.id >=23 && item.id < 31)
+            .filter((item) => item.id >= 23 && item.id < 31)
             .map((data, index) => {
               return (
                 <div className="imagedata" key={index}>
                   <div className="child">
-                    <Link to={"/detaildescription/" + data.id+"/"+data.catgory}>
+                    <Link
+                      to={"/detaildescription/" + data.id + "/" + data.catgory}
+                    >
                       <img src={data.Image} alt="click here" />
                     </Link>
                     <div className="title">{data.heading}</div>
@@ -53,7 +56,11 @@ function Technology() {
                   return (
                     <>
                       <div className="child" key={index}>
-                        <Link to={"/detaildescription/" + data.id+"/"+data.catgory}>
+                        <Link
+                          to={
+                            "/detaildescription/" + data.id + "/" + data.catgory
+                          }
+                        >
                           <img src={data.Image} alt="click here" />
                         </Link>
                         <div className="title">{data.heading}</div>
@@ -66,13 +73,6 @@ function Technology() {
                     </>
                   );
                 })}
-              <div className="load">
-                {" "}
-                <span className="material-symbols-outlined">
-                  keyboard_double_arrow_down
-                </span>
-                LOAD MORE{" "}
-              </div>
             </div>
           </div>
 
@@ -80,13 +80,17 @@ function Technology() {
             <div className="bollywood-inner-content">
               <div className="post">Top Post</div>
               {bollywooddata
-                .filter((item) => item.id >= 40 && item.id <=45)
+                .filter((item) => item.id >= 40 && item.id <= 45)
                 .map((data, index) => {
                   const count = index + 1;
                   return (
                     <>
                       <div className="child" key={index}>
-                        <Link to={"/detaildescription/" + data.id+"/"+data.catgory}>
+                        <Link
+                          to={
+                            "/detaildescription/" + data.id + "/" + data.catgory
+                          }
+                        >
                           <img src={data.Image} alt="click here" />
                         </Link>
                         <div className="title">{data.heading}</div>
@@ -102,7 +106,7 @@ function Technology() {
                   );
                 })}
               <div className="advertisement">
-                <p>advertisement</p>
+                <video src={video} muted loop autoPlay></video>
               </div>
             </div>
           </div>

@@ -1,11 +1,13 @@
 import React, { useContext } from "react";
 import Contextapi from "../Contextapi/Contextapi";
+
 import { Link } from "react-router-dom";
+import video from "../images/video.mp4"
 
 import "./Style.css";
 
 export const Hollywood = () => {
-  const bollywooddata = useContext(Contextapi);
+  const apidata = useContext(Contextapi);
  
 
   function truncateDescription(description, numWords) {
@@ -25,7 +27,7 @@ export const Hollywood = () => {
         <h1>Hollywood</h1>
       </div>
       <div className="bollywood-data">
-        {bollywooddata
+        {apidata
           .filter((item) => item.id > 45 && item.id < 54)
           .map((data, index) => {
             return (
@@ -51,8 +53,8 @@ export const Hollywood = () => {
       <div className="bollywood-first-container">
         <div className="bollywood-firstinner-container">
           <div className="bollywood-content">
-            {bollywooddata
-              .filter((item) => item.id >= 54 && item.id < 63)
+            {apidata
+              .filter((item) => item.id >= 54 && item.id < 64)
               .map((data, index) => {
                 return (
                   <>
@@ -70,20 +72,14 @@ export const Hollywood = () => {
                   </>
                 );
               })}
-            <div className="load">
-              {" "}
-              <span className="material-symbols-outlined">
-                keyboard_double_arrow_down
-              </span>
-              LOAD MORE{" "}
-            </div>
+           
           </div>
         </div>
 
         <div className="bollywood-secondinner-container">
           <div className="bollywood-inner-content">
             <div className="post">Top Post</div>
-            {bollywooddata
+            {apidata
               .filter((item) => item.id >= 63 && item.id <=69)
               .map((data, index) => {
                 const count = index + 1;
@@ -106,7 +102,7 @@ export const Hollywood = () => {
                 );
               })}
             <div className="advertisement">
-              <p>advertisement</p>
+            <video src={video}   muted loop autoPlay></video>
             </div>
           </div>
         </div>

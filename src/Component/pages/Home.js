@@ -69,7 +69,7 @@ console.log(apidata)
         <div className="bollywood-firstinner-container">
           <div className="bollywood-content">
             {apidata
-              .filter((item) => item.id >= 122 && item.id < 131)
+              .filter((item) => item.id >= 122 && item.id < 130)
               .map((data, index) => {
                 return (
                   <div key={index}>
